@@ -1,0 +1,63 @@
+/*!
+ * Yamm!3
+ * Yet another megamenu for Bootstrap 3
+ * 
+ * http://geedmo.github.com/yamm3
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .yamm-fw {
+    position: static;
+}
+
+.yamm .container {
+    position: relative;
+}
+
+.yamm .dropdown.yamm-fw .dropdown-menu {
+    left: 15px;
+    right: 15px;
+}
+
+/* ============================================== */
+/* HDTV                                           */
+/*                                      1920x1080 */
+/* ============================================== */
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+    .yamm .nav,
+    .yamm .collapse,
+    .yamm .dropup,
+    .yamm .yamm-fw {
+        position: static;
+        height:80px;
+    }
+
+}
+/* ============================================== */
+/* iPad Portrait                                  */
+/*                                       768x1024 */
+/* ============================================== */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .yamm .nav,
+    .yamm .collapse,
+    .yamm .dropup,
+    .yamm .yamm-fw {
+        position: static;
+        height:20px;
+    }
+}
+
+/* ============================================== */
+/* Small Tablet Landscape/Portrait                */
+/*                                        800x600 */
+/* ============================================== */
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .yamm .nav,
+    .yamm .collapse,
+    .yamm .dropup,
+    .yamm .yamm-fw {
+        position: static;
+        height:30px;
+    }
+}
