@@ -19,39 +19,31 @@ if (isset($_POST['equipment_name'])) {
     $equipment_details = validateInput($equipment_details);
     $equipment_qty = validateInput($equipment_qty);
 
-    // check exists
-    $sql_check = "SELECT * FROM equipment WHERE equipment_name='$equipment_name' AND equipment_id NOT IN (" . $equipment_id . ")";
-    $result_check = mysqli_query($con, $sql_check);
-    $count = mysqli_num_rows($result_check);
-    if ($count > 0) {
-        $flag++;
-        $error = "Equipment name already exists in record";
-    } else {
 
-        if ($flag == 0) {
-            $custom_array = '';
-            $custom_array .= 'equipment_name = "' . $equipment_name . '"';
-            $custom_array .= ',equipment_status = "' . $equipment_status . '"';
-            $custom_array .= ',equipment_details = "' . $equipment_details . '"';
-            $custom_array .= ',equipment_qty = "' . $equipment_qty . '"';
-            $custom_array .= ',equipment_updated_by = "' . $equipment_updated_by . '"';
 
-            $sql = "UPDATE equipment SET $custom_array WHERE equipment_id = $equipment_id";
-            $result = mysqli_query($con, $sql);
-            if ($result) {
-                $success = 'Equipment information updated successfully';
-                $link = baseUrl() . "admin/view/equipment/list.php?success=" . base64_encode($success);
-                redirect($link);
-            } else {
-                if (DEBUG) {
-                    $error = 'result query failed for ' . mysqli_error($con);
-                } else {
-                    $error = 'Something went wrong';
-                }
-            }
+    if ($flag == 0) {
+        $custom_array = '';
+        $custom_array .= 'equipment_name = "' . $equipment_name . '"';
+        $custom_array .= ',equipment_status = "' . $equipment_status . '"';
+        $custom_array .= ',equipment_details = "' . $equipment_details . '"';
+        $custom_array .= ',equipment_qty = "' . $equipment_qty . '"';
+        $custom_array .= ',equipment_updated_by = "' . $equipment_updated_by . '"';
+
+        $sql = "UPDATE equipment SET $custom_array WHERE equipment_id = $equipment_id";
+        $result = mysqli_query($con, $sql);
+        if ($result) {
+            $success = 'Equipment information updated successfully';
+            $link = baseUrl() . "admin/view/equipment/list.php?success=" . base64_encode($success);
+            redirect($link);
         } else {
-            $error = 'Something went wrong. Please try again.';
+            if (DEBUG) {
+                $error = 'result query failed for ' . mysqli_error($con);
+            } else {
+                $error = 'Something went wrong';
+            }
         }
+    } else {
+        $error = 'Something went wrong. Please try again.';
     }
 }
 // getting banner data

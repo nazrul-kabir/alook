@@ -9,47 +9,38 @@ $equipment_created_by = getSession('admin_id');
 $flag = 0;
 if (isset($_POST['equipment_name'])) {
     extract($_POST);
-    
-    
+
+
     $equipment_name = validateInput($equipment_name);
     $equipment_status = validateInput($equipment_status);
     $equipment_details = validateInput($equipment_details);
     $equipment_qty = validateInput($equipment_qty);
 
-    // check banner exists
-    $sql_check = "SELECT * FROM equipment WHERE equipment_name = '$equipment_name'";
-    $result_check = mysqli_query($con, $sql_check);
-    $count = mysqli_num_rows($result_check);
-    if ($count > 0) {
-        $flag++;
-        $error = "Equipment name already exists in record";
-    } else {
 
-        if ($flag == 0) {
-            $custom_array = '';
-            $custom_array .= 'equipment_name = "' . $equipment_name . '"';
-            $custom_array .= ',equipment_status = "' . $equipment_status . '"';
-            $custom_array .= ',equipment_details = "' . $equipment_details . '"';
-            $custom_array .= ',equipment_qty = "' . $equipment_qty . '"';
-            $custom_array .= ',equipment_created_on = "' . $equipment_created_on . '"';
-            $custom_array .= ',equipment_created_by = "' . $equipment_created_by . '"';
+    if ($flag == 0) {
+        $custom_array = '';
+        $custom_array .= 'equipment_name = "' . $equipment_name . '"';
+        $custom_array .= ',equipment_status = "' . $equipment_status . '"';
+        $custom_array .= ',equipment_details = "' . $equipment_details . '"';
+        $custom_array .= ',equipment_qty = "' . $equipment_qty . '"';
+        $custom_array .= ',equipment_created_on = "' . $equipment_created_on . '"';
+        $custom_array .= ',equipment_created_by = "' . $equipment_created_by . '"';
 
-            $sql = "INSERT INTO equipment SET $custom_array";
-            $result = mysqli_query($con, $sql);
-            if ($result) {
-                $success = 'Equipment information saved successfully';
-                $link = baseUrl() . "admin/view/equipment/list.php?success=" . base64_encode($success);
-                redirect($link);
-            } else {
-                if (DEBUG) {
-                    $error = 'result query failed for ' . mysqli_error($con);
-                } else {
-                    $error = 'Something went wrong';
-                }
-            }
+        $sql = "INSERT INTO equipment SET $custom_array";
+        $result = mysqli_query($con, $sql);
+        if ($result) {
+            $success = 'Equipment information saved successfully';
+            $link = baseUrl() . "admin/view/equipment/list.php?success=" . base64_encode($success);
+            redirect($link);
         } else {
-            $error = 'Something went wrong. Please try again.';
+            if (DEBUG) {
+                $error = 'result query failed for ' . mysqli_error($con);
+            } else {
+                $error = 'Something went wrong';
+            }
         }
+    } else {
+        $error = 'Something went wrong. Please try again.';
     }
 }
 ?>
@@ -173,7 +164,7 @@ if (isset($_POST['equipment_name'])) {
                             "border": "1px solid red"
                         });
                     }
-                    
+
                     if (equipment_qty == '') {
                         status++;
                         $("#errorShow").show();

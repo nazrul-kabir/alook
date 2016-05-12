@@ -81,10 +81,7 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                 <div class="divide20"></div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="center-heading">
-                            <h2>EQUIPMENT LIST</h2>
-                            <span class="center-line"></span>
-                        </div>
+                        
                         <?php if (count($arrayEquipment) > 0): ?>
                             <div id="no-more-tables">
                                 <table class="col-md-12 table-bordered table-striped table-condensed cf">
