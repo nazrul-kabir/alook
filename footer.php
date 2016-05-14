@@ -76,7 +76,7 @@
                     <h3>Quick Links</h3> 
                     <ul class="list-unstyled latest-f-news">
                         <li><a href="javascript:void(0);"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Products</a></li>
-                        <li><a href="javascript:void(0);"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Clients</a></li>
+                        <li><a href="<?php echo baseUrl(); ?>all_client.php"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Clients</a></li>
                         <li><a href="<?php echo baseUrl(); ?>equipment.php"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Equipments</a></li>
                         <li><a href="javascript:void(0);"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Gallery</a></li>
                         <li><a href="javascript:void(0);"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Career</a></li>

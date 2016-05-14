@@ -1,5 +1,14 @@
 <?php
 include './config/config.php';
+$array_client = array();
+$sql_client = "SELECT * FROM client WHERE client_status='Active'";
+$result_client = mysqli_query($con, $sql_client);
+if ($result_client) {
+    while ($obj_client = mysqli_fetch_object($result_client)) {
+        $array_client[] = $obj_client;
+    }
+//    debug($array_client);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +18,9 @@ include './config/config.php';
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Alook Refrigeration CO. Ltd | Our Valuable Clients</title>
         <?php include './header_script.php'; ?>
+        <style>
+            ul > li{list-style: none;}
+        </style>
     </head>
     <body id="boxed">
         <div class="boxed-wrapper">
@@ -31,68 +43,16 @@ include './config/config.php';
             <div class="container">
                 <div class="divide80"></div>
                 <div class="row">
-                    <div class="col-sm-4 margin30">
-                        <h4>Default template</h4>
-                        <ol>
-                            <li><a href="index.html">Revolution Full-width</a></li>
-                            <li><a href="home-revolution-boxed.html">Revolution Boxed</a></li>
-                            <li><a href="home-revolution-fullscreen.html">Revolution Fullscreen</a></li>
-                            <li><a href="ken-burns.html">Ken burns Slider</a></li>
-                            <li><a href="home-carousel.html">Carousel Slider</a></li>
-                            <li><a href="home-flexslider.html">Flex slider</a></li>    
-                            <li><a href="r5-classic.html">Revolution-5 Carousel classic</a></li> 
-                            <li><a href="r5-gym.html">Revolution-5 Slider Gym</a></li> 
-                            <li><a href="home-parallax.html">Home - Parallax</a></li>
-                            <li><a href="home-video.html">Home -Youtube Video</a></li><li><a href="home-self-video.html">Home - Video(Self-hosted) <span class="label new-label">New</span></a></li>
-                            <li><a href="home-boxed.html">Home - Boxed</a></li>
-                            <li><a href="home-construction.html">Home - Construction</a></li>
-                            <li><a href="home-portfolio.html">Home - Portfolio</a></li>
-                            <li><a href="home-events.html">Home - Events</a></li> 
-
-                        </ol>
-                    </div>
-                    <div class="col-sm-4 margin30">
-                        <h4>Default template</h4>
-                        <ol>
-                            <li><a href="index.html">Revolution Full-width</a></li>
-                            <li><a href="home-revolution-boxed.html">Revolution Boxed</a></li>
-                            <li><a href="home-revolution-fullscreen.html">Revolution Fullscreen</a></li>
-                            <li><a href="ken-burns.html">Ken burns Slider</a></li>
-                            <li><a href="home-carousel.html">Carousel Slider</a></li>
-                            <li><a href="home-flexslider.html">Flex slider</a></li>    
-                            <li><a href="r5-classic.html">Revolution-5 Carousel classic</a></li> 
-                            <li><a href="r5-gym.html">Revolution-5 Slider Gym</a></li> 
-                            <li><a href="home-parallax.html">Home - Parallax</a></li>
-                            <li><a href="home-video.html">Home -Youtube Video</a></li><li><a href="home-self-video.html">Home - Video(Self-hosted) <span class="label new-label">New</span></a></li>
-                            <li><a href="home-boxed.html">Home - Boxed</a></li>
-                            <li><a href="home-construction.html">Home - Construction</a></li>
-                            <li><a href="home-portfolio.html">Home - Portfolio</a></li>
-                            <li><a href="home-events.html">Home - Events</a></li> 
-                        </ol>
-                    </div>
-                    <div class="col-sm-4 margin30">
-
-                        <h4>Real Estate Template</h4>
-                        <ol>
-                            <li><a href="index.html">Home - Slider</a></li>
-                            <li><a href="real-estate-home-map.html">Home - Map</a></li>
-                            <li><a href="r-property-listing.html">Property Listing</a></li>
-                            <li><a href="r-property-detail.html">Property Detail</a></li>
-                            <li><a href="r-agent-listing.html">Agent Listing</a></li>
-                            <li><a href="r-agent-detail.html">Agent Detail</a></li>
-                            <li><a href="r-agency-listing.html">Agency Listing</a></li>
-                            <li><a href="r-agency-detail.html">Agency Detail</a></li>                          
-                            <li><a href="real-estate-pricing.html">Pricing</a></li>
-                            <li><a href="real-estate-faqs.html">Faqs</a></li>         
-                            <li><a href="real-estate-blog.html">Blog</a></li>
-                            <li><a href="real-estate-contact.html">Contact</a></li>
-                            <li><a href="real-estate-login-register.html">Login</a></li>
-                            <li class="active"><a href="r-add-property.html">Add Property</a></li>
-
-                        </ol>
-                        
-                    </div>
-
+                    <?php if (count($array_client) > 0): ?>
+                        <?php foreach ($array_client AS $client): ?>
+                            <div class="col-md-4">
+                                <ul>
+                                    <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> <?php echo $client->client_name; ?> </li>
+                                </ul>
+                            </div>
+                            
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </div>
             </div>
             <?php include './footer.php'; ?>
