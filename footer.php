@@ -1,7 +1,7 @@
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-6 margin30">
+            <div class="col-md-4 ">
                 <div class="footer-col">
                     <h3>About Alook</h3>
                     <p style="text-align: justify;">
@@ -43,7 +43,7 @@
                     </ul>
                 </div>                        
             </div><!--footer col-->
-            <div class="col-md-3 col-sm-6 margin30">
+            <div class="col-md-4">
                 <div class="footer-col">
                     <h3>Contact</h3>
                     <ul class="list-unstyled contact">
@@ -55,23 +55,8 @@
                     </ul>
                 </div>                        
             </div><!--footer col-->
-            <div class="col-md-3 col-sm-6 margin30">
-                <div class="footer-col">
-                    <h3>Featured Work</h3>
-                    <ul class="list-inline f2-work">
-                        <li><a href="#"><img src="img/img-1.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="#"><img src="img/img-2.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="#"><img src="img/img-3.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="#"><img src="img/img-4.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="#"><img src="img/img-5.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="#"><img src="img/img-6.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="#"><img src="img/img-7.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="#"><img src="img/img-8.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="#"><img src="img/img-9.jpg" class="img-responsive" alt=""></a></li>
-                    </ul>
-                </div>                        
-            </div><!--footer col-->
-            <div class="col-md-3 col-sm-6 margin30">
+            
+            <div class="col-md-4">
                 <div class="footer-col">
                     <h3>Quick Links</h3> 
                     <ul class="list-unstyled latest-f-news">

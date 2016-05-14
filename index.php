@@ -153,17 +153,17 @@ if ($resultProduct) {
                                 </div>
                             </div>
                         </div>
+                        <!--                        
                         <div class="divide30"></div>
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <a href="javascript:void(0);" class="btn border-theme btn-lg wow animated fadeInUp"><i class="fa fa-bars"></i> Load More Products</a>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <a href="javascript:void(0);" class="btn border-theme btn-lg wow animated fadeInUp"><i class="fa fa-bars"></i> Load More Products</a>
+                                </div>
                             </div>
-                        </div>
+                        -->
                     </div>
                 </section>
             <?php endif; ?>
-            <!-- Product Section -->
-           
             <?php include basePath('news_section.php'); ?>                   
             <?php include basePath('clients_section.php'); ?>
             <?php include basePath('news_letter.php') ?>

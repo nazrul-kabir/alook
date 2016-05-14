@@ -1,7 +1,7 @@
 $(window).resize(function () {
     $(".navbar-collapse").css({maxHeight: $(window).height() - $(".navbar-header").height() + "px"});
 });
-/** STICKY HEADER **/   
+/** STICKY HEADER **/
 $(document).ready(function () {
     $(window).load(function () {
         $(".sticky").sticky({topSpacing: 0});
@@ -9,7 +9,7 @@ $(document).ready(function () {
 });
 
 
-/** WOW PLUGIN **/   
+/** WOW PLUGIN **/
 $(document).ready(function () {
     var wow = new WOW({
         boxClass: 'wow',
@@ -174,5 +174,62 @@ $('.panel-ico a[data-toggle="collapse"]').on('click', function () {
         $(this).closest('.panel-heading').addClass('active');
     }
 });
+
+/** SUBSCRIVE EMAIL **/
+function validateEmail(email) {
+    var emailReg = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+    var valid = emailReg.test(email);
+    if (!valid) {
+        return false;
+    } else {
+        return true;
+    }
+}
+$(document).ready(function () {
+    $("#button_sub").click(function () {
+        var sub_email = $("#sub_email").val();
+        var status = 0;
+        if (sub_email == '') {
+            $("#sub_email").css({
+                "border": "1px solid red"
+            });
+            status++;
+        }
+        if (sub_email != '' && !validateEmail(sub_email)) {
+            status++;
+            $("#sub_email").css({
+                "border": "1px solid red"
+            });
+        }
+        $('#sub_email').keyup(function () {
+            $("#sub_email").css({
+                "border": "1px solid #A4D7F1"
+            });
+        });
+        if (status == 0) {
+            $.ajax({
+                url: "save_subscribe.php",
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    sub_email: sub_email
+                },
+                success: function (response) {
+                    var obj = response;
+                    if (obj.output === "success") {
+                        var flag = obj.flag;
+                        if (flag == '1') {
+                            $("#successDiv").show();
+                            $("#defaultDiv").hide();
+                        }
+                    } else {
+                        alert('Error');
+                    }
+                }
+            });
+        }
+    });
+});
+
 
  
