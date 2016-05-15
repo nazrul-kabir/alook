@@ -145,7 +145,7 @@ if (isset($_POST['contact_name'])) {
                                     </p>
                                 </div>                                <div class="row">
                                     <div class="form-group col-xs-12">
-                                        <button type="button" return="false" id="btnContact" name="btnContact" class="btn btn-red btn-lg">Send Message</button>
+                                        <button type="button" return="false" id="btnContact" name="btnContact" class="btn btn-primary" style="background: #10218B;">Send Message</button>
                                     </div>
                                 </div>
 

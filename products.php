@@ -1,8 +1,17 @@
 <?php
 include './config/config.php';
 $id = '';
+$product_type_name = '';
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
+}
+if ($id > 0 && $id != '') {
+    $sqlProductType = "SELECT product_type_name FROM product_type WHERE product_type_id=$id";
+    $resultProductType = mysqli_query($con, $sqlProductType);
+    if($resultProductType){
+        $objProductType = mysqli_fetch_object($resultProductType);
+        $product_type_name = $objProductType->product_type_name;
+    }
 }
 if ($id > 0 && $id != '') {
     $arrayProduct = array();
@@ -23,7 +32,7 @@ if ($id > 0 && $id != '') {
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Alook Refrigeration CO. Ltd | Products</title>
+        <title>Alook Refrigeration CO. Ltd | Products | <?php echo $product_type_name; ?></title>
         <?php include basePath('header_script.php'); ?>
         <style>
             p{text-align: justify;}
@@ -42,6 +51,7 @@ if ($id > 0 && $id != '') {
                             <ol class="breadcrumb">
                                 <li><a href="index.php">HOME</a></li>
                                 <li>PRODUCTS</li>
+                                <li><?php echo $product_type_name; ?></li>
                             </ol>
                         </div>
                     </div>
@@ -52,7 +62,7 @@ if ($id > 0 && $id != '') {
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading">
-                            <h2>PRODUCTS</h2>
+                            <h2><?php echo $product_type_name; ?></h2>
                             <span class="center-line"></span>
                         </div>
                         
@@ -76,7 +86,7 @@ if ($id > 0 && $id != '') {
                                         <div class="modal-content">
                                             <div class="modal-header" style="border-bottom: 1px solid white;">
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                <h4 class="modal-title" style="color: #32c5d2;"><?php echo $product->product_title; ?></h4>
+                                                <h4 class="modal-title" style="color: #10218B;"><?php echo $product->product_title; ?></h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <img style="margin-top: 10px;" src="<?php echo baseUrl(); ?>upload/product_image/<?php echo $product->product_image; ?>"class="img-responsive" alt="<?php echo $product->product_title; ?>">

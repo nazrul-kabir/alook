@@ -77,22 +77,22 @@ if ($resultProduct) {
                             <div class="col-md-6">
                                 <ul>
                                     <li style="list-style: none;">
-                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Outstanding Customer Satisfaction
+                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Outstanding Customer Satisfaction
                                     </li>
                                     <li style="list-style: none;">
-                                        <i class="fa fa-check"></i>&nbsp;&nbsp;High Quality Product & Service
+                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;High Quality Product & Service
                                     </li>
                                     <li style="list-style: none;">
-                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Quality Project Delivery
+                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Quality Project Delivery
                                     </li>
                                     <li style="list-style: none;">
-                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Excellent Price Quality Ratio
+                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Excellent Price Quality Ratio
                                     </li>
                                     <li style="list-style: none;">
-                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Quick Supply - Respect Deadline
+                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Quick Supply - Respect Deadline
                                     </li>
                                     <li style="list-style: none;">
-                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Efficient After Sales Service & Repair
+                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Efficient After Sales Service & Repair
                                     </li>
                                 </ul>
                             </div>
