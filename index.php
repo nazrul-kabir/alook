@@ -146,7 +146,6 @@ if ($resultProduct) {
                                             </div>
                                             <div class="work-desc">
                                                 <h5><a href="javascript:void(0);"><?php echo $product->product_title; ?></a></h5>
-                                                <p style="margin-bottom: 20px;"><?php echo $product->product_type_name; ?></p>
                                             </div>
                                         </div>
                                     <?php endforeach; ?>
