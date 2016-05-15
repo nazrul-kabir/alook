@@ -69,7 +69,6 @@ if ($id > 0 && $id != '') {
                                     </div>
                                     <div class="work-desc">
                                         <h5><a href="#" data-toggle="modal" data-target="#myModal<?php echo $product->product_id; ?>"><?php echo $product->product_title; ?></a></h5>
-                                        <p><?php echo $product->pc_name; ?></p>
                                     </div>
                                 </div> 
                                 <div class="modal fade" id="myModal<?php echo $product->product_id; ?>" role="dialog">
@@ -77,7 +76,7 @@ if ($id > 0 && $id != '') {
                                         <div class="modal-content">
                                             <div class="modal-header" style="border-bottom: 1px solid white;">
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                <h4 class="modal-title"><?php echo $product->product_title; ?></h4>
+                                                <h4 class="modal-title" style="color: #32c5d2;"><?php echo $product->product_title; ?></h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <img style="margin-top: 10px;" src="<?php echo baseUrl(); ?>upload/product_image/<?php echo $product->product_image; ?>"class="img-responsive" alt="<?php echo $product->product_title; ?>">
