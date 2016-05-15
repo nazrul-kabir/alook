@@ -10,10 +10,10 @@ body {
     -ms-text-size-adjust: 100%;
     color: #424242;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     background-color: #fff;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 /*
@@ -50,7 +50,7 @@ iframe {
 }
 
 strong, b {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
 }
 
@@ -58,8 +58,8 @@ input,
 button,
 select,
 textarea, label {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #060606;
     font-weight: 700;
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 h1 {
@@ -141,7 +141,7 @@ h3.heading {
     text-transform: capitalize;
     overflow: hidden;
     vertical-align: middle;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 h3.heading:after {
@@ -546,7 +546,7 @@ pre:after, pre:before {
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -1081,7 +1081,8 @@ TOP BARS
 
 .footer-col p {
     color: #aeaeae;
-    font-size: 13px;
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
 }
 
 .contact p {
@@ -1240,7 +1241,9 @@ TOP BARS
 .latest-f-news li a {
     display: block;
     padding: 4px 0;
-    color: #777;
+    color: #aeaeae;
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
 }
 
 .latest-f-news li a i {
@@ -2806,7 +2809,7 @@ ul.post-desc li + li {
     font-size: 20px;
     line-height: 36px;
     font-style: normal;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 .testimonials h4 i {
@@ -2881,7 +2884,7 @@ ul.post-desc li + li {
 .testi-slide h4 {
     font-weight: 400;
     font-size: 16px;
-    font-family: "Lato", sans-serif !important;
+    font-family: "Poppins",sans-serif !important;
     font-style: italic;
 }
 
@@ -3093,7 +3096,7 @@ ul.post-desc li + li {
     color: #fff;
     font-size: 25px;
     font-weight: 400;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 /****fun facts*****/
@@ -3124,7 +3127,7 @@ ul.post-desc li + li {
 .facts-in h4 {
     margin-bottom: 0px;
     color: #fff;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -3221,7 +3224,7 @@ ul.post-desc li + li {
     letter-spacing: 8px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 ol.breadcrumb {
@@ -3244,7 +3247,7 @@ ol.breadcrumb li a {
 
 /***list of highlight**/
 .highlight-list li {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     font-size: 16px;
     color: #777;
     line-height: 45px;
@@ -3875,7 +3878,7 @@ label span {
     -moz-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
     -ms-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
     box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 .panel-group .panel-heading a {
@@ -4204,7 +4207,7 @@ label span {
     line-height: 30px;
     margin-bottom: 30px;
     margin-top: 25px;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 @media (max-width: 433px) {
@@ -4924,7 +4927,7 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .intro-text-default h4 {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 30px;
@@ -4998,7 +5001,7 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .testimonials-light h4 {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     color: #000;
     font-style: normal;
@@ -5184,7 +5187,7 @@ MULTI LEVEL DROPDOWN CSS
 
 .fun-fact-wrap-light .facts-in h4 {
     color: #000;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     text-transform: lowercase;
     font-style: normal;
@@ -5598,7 +5601,7 @@ MULTI LEVEL DROPDOWN CSS
 
 /****cube portfolio*******/
 .cube-masonry .cbp-l-filters-alignCenter .cbp-filter-item {
-    font-family: "Lato", sans-serif !important;
+    font-family: "Poppins",sans-serif !important;
     font-size: 15px;
 }
 
@@ -5638,12 +5641,12 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .portfolio-cube .cbp-l-grid-projects-title {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     text-transform: uppercase;
 }
 
 .portfolio-cube .cbp-l-filters-button .cbp-filter-item {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     text-transform: uppercase;
 }
 
@@ -5655,16 +5658,16 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .portfolio-cube {
-    font-family: "Lato", sans-serif !important;
+    font-family: "Poppins",sans-serif !important;
 }
 
 .cube-masonry .cbp-l-caption-title {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
     text-transform: uppercase;
 }
 
 .cube-masonry .cbp-l-caption-desc {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 /************pace style for page pre-loader********/
@@ -6250,7 +6253,7 @@ body.coming-soon-full {
 
 /*********revolution slider 5 css*****/
 .tp-caption.NotGeneric-Title, rev-btn, .NotGeneric-Title, .tp-caption.NotGeneric-SubTitle, .NotGeneric-SubTitle, .tp-caption.Gym-Display, .Gym-Display, .tp-caption.Gym-Subline, .Gym-Subline, .tp-caption.Gym-SmallText, .Gym-SmallText, .tp-caption.Gym-Button, .Gym-Button, .rev-btn {
-    font-family: "Lato", sans-serif !important;
+    font-family: "Poppins",sans-serif !important;
     font-weight: 400 !important;
 }
 

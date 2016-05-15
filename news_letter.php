@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-md-6" id="defaultDiv">
                     <div class="input-group">
-                        <input type="text" id="sub_email" name="sub_email" class="form-control" placeholder="Enter email to subscribe" style="height: 40px;border-top-left-radius: 3px;border-bottom-left-radius: 3px;">
+                        <input type="text" id="sub_email" name="sub_email" class="form-control" placeholder="Enter email to subscribe" style="font-family: 'Poppins',sans-serif;font-size: 16px;height: 40px;border-top-left-radius: 3px;border-bottom-left-radius: 3px;">
                         <span class="input-group-btn">
                             <button class="btn  btn-theme-dark" id="button_sub" type="button" return="false" style="padding: 7px 28px 13px 28px;font-size: 13px;font-weight: 400;">SEND</button>
                         </span>

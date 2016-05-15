@@ -11,7 +11,7 @@ include './config/config.php';
         <?php include basePath('header_script.php'); ?>
         <style>
             p{
-                text-align: match-parent;
+                text-align: justify;
             }
         </style>
     </head>
@@ -57,11 +57,11 @@ include './config/config.php';
                            Earning a revenue by making people comfortable by
                         </p>
                         <ul class="list-unstyled highlight-list">
-                            <li style="font-size: 12px;line-height: 25px;"><i class="fa fa-check"></i> Supplying, Installing, Commissioning state-of-the art Heating, Ventilating, Air-conditioning & Refrigerating Equipment</li>
-                            <li style="font-size: 12px;line-height: 25px;"><i class="fa fa-check"></i> Importing HVAC equipment</li>
-                            <li style="font-size: 12px;line-height: 25px;"><i class="fa fa-check"></i> Manufacturing water heaters & accessories</li>
-                            <li style="font-size: 12px;line-height: 25px;"><i class="fa fa-check"></i> Uninterrupted after-sales-service and maintenance to the clients</li>
-                            <li style="font-size: 12px;line-height: 25px;"><i class="fa fa-check"></i> Continuous contribution to business development of the country</li>
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Supplying, Installing, Commissioning state-of-the art Heating, Ventilating, Air-conditioning & Refrigerating Equipment</li>
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Importing HVAC equipment</li>
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Manufacturing water heaters & accessories</li>
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Uninterrupted after-sales-service and maintenance to the clients</li>
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Continuous contribution to business development of the country</li>
                         </ul>
                     </div>
                     <div class="col-md-8 margin20">
