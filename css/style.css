@@ -3530,7 +3530,8 @@ p.dropcap:first-letter {
 
 #contactForm .form-control {
     min-height: 45px;
-    background-color: #fff;
+    background-color: #f5f5f5;
+    border-radius: 2px;
 }
 
 .form-contact form label {

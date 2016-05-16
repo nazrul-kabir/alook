@@ -143,9 +143,10 @@ if (isset($_POST['contact_name'])) {
                                     <p id="errorShow" style="display: none;background-color: #ea2e49;color: white; padding: 4px 4px 2px 4px;font-size: 12px;position: relative;">
                                         Please fill up required (*) fields
                                     </p>
-                                </div>                                <div class="row">
+                                </div>                                
+                                <div class="row">
                                     <div class="form-group col-xs-12">
-                                        <button type="button" return="false" id="btnContact" name="btnContact" class="btn btn-primary" style="background: #10218B;">Send Message</button>
+                                        <button type="button" return="false" id="btnContact" name="btnContact" class="btn btn-primary" style="background: #CCC;border: 2px solid #CCC;color: black;box-shadow: 2px 2px 5px #888888;font-weight: bold;">Send Message</button>
                                     </div>
                                 </div>
 
@@ -243,5 +244,13 @@ if (isset($_POST['contact_name'])) {
                 });
             });
         </script>
+        <!--        .featured-box .box-content {
+            border-radius: 8px;
+            border-top: 1px solid #CCC;
+            border-top-width: 4px;
+            padding: 30px 30px 10px 30px;
+            position: relative;
+            top: -1px;
+        }-->
     </body>
 </html>
