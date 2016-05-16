@@ -23,16 +23,12 @@ if ($result) {
                     </a>
                     <a href="#" class="social-icon-sm si-gray si-gray-round si-g-plus">
                         <i class="fa fa-google-plus"></i>
-                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-google-plus"></i>
                     </a>
                     <a href="#" class="social-icon-sm si-gray si-gray-round si-g-plus">
                         <i class="fa fa-youtube"></i>
                         <i class="fa fa-youtube"></i>
-                    </a>
-                    <a href="#" class="social-icon-sm si-gray si-gray-round si-instagram">
-                        <i class="fa fa-instagram"></i>
-                        <i class="fa fa-instagram"></i>
-                    </a>
+                    </a>                    
                 </div>
 
             </div>
@@ -75,11 +71,10 @@ if ($result) {
                 <li class="dropdown ">
                     <a href="#" class="dropdown-toggle " data-toggle="dropdown">ABOUT US <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu multi-level" role="menu">
-                        <li><a tabindex="-1" href="principles.php">GUIDING PRINCIPLE</a></li>
                         <li><a tabindex="-1" href="profile.php">ALOOK'S PROFILE</a></li>
                         <li><a tabindex="-1" href="dunham_profile.php">DUNHAM-BUSH PROFILE</a></li>
                         <li><a tabindex="-1" href="organogram.php">ORGANOGRAM</a></li>
-                        <li><a tabindex="-1" href="dr.php">DIRECTOR SIR'S REVIEW</a></li>
+                        <li><a tabindex="-1" href="dr.php">MESSAGE FROM ED</a></li>
                         <li><a tabindex="-1" href="mdm.php">MESSAGE FROM MD</a></li>
                     </ul>
                 </li>

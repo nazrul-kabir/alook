@@ -57,7 +57,7 @@ if ($resultProduct) {
             <section class="services-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="center-heading">
                                 <h2>About Company</h2>
                                 <span class="center-line"></span>
@@ -69,12 +69,13 @@ if ($resultProduct) {
                                 back is now a noticeable actor in the field of Air-conditioning.
                             </p>
                         </div>                   
-                        <div class="col-md-8">
+                        <div class="col-md-6">
                             <div class="center-heading">
                                 <h2>Why US?</h2>
                                 <span class="center-line"></span>
-                            </div>
-                            <div class="col-md-6">
+                            </div>   
+                            <div class="col-md-2 hidden-xs hidden-sm"></div>
+                            <div class="col-md-8">
                                 <ul>
                                     <li style="list-style: none;">
                                         <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Outstanding Customer Satisfaction
@@ -94,27 +95,9 @@ if ($resultProduct) {
                                     <li style="list-style: none;">
                                         <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Efficient After Sales Service & Repair
                                     </li>
-                                </ul>
+                                </ul> 
                             </div>
-                            <div class="col-md-6">
-                                <div class="skills-wrapper wow animated bounceIn animated" data-wow-delay="0.2s">
-                                    <h3 class="heading-progress">Air-Conditioning <span class="pull-right">88%</span></h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: 88%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" role="progressbar">
-                                        </div>
-                                    </div>
-                                    <h3 class="heading-progress">Refrigeration  <span class="pull-right">78%</span></h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: 78%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="78" role="progressbar">
-                                        </div>
-                                    </div>
-                                    <h3 class="heading-progress">HVAC & R<span class="pull-right">82%</span></h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: 82%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="82" role="progressbar">
-                                        </div>
-                                    </div>                    
-                                </div>
-                            </div> 
+                            <div class="col-md-2 hidden-sm hidden-xs"></div>
                         </div> 
                     </div>
                 </div>
@@ -126,7 +109,7 @@ if ($resultProduct) {
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="center-heading">
-                                    <h2>Recent Products</h2>
+                                    <h2>Products</h2>
                                     <span class="center-line"></span>
                                 </div>
                             </div>                   
@@ -165,8 +148,8 @@ if ($resultProduct) {
             <?php endif; ?>
             <?php include basePath('news_section.php'); ?>                   
             <?php include basePath('clients_section.php'); ?>
-            <?php include basePath('news_letter.php') ?>
-            <?php include basePath('footer.php'); ?>
+            <?php // include basePath('news_letter.php') ?>
+            <?php include basePath('footer_index.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>
     </body>

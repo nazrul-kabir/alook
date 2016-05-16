@@ -7,7 +7,7 @@ include './config/config.php';
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Alook Refrigeration CO. Ltd | Director's Review</title>
+        <title>Alook Refrigeration CO. Ltd | MESSAGE FROM ED</title>
         <?php include basePath('header_script.php'); ?>
         <style>
             p{
@@ -22,7 +22,7 @@ include './config/config.php';
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h4>DIRECTOR'S REVIEW</h4>
+                            <h4>MESSAGE FROM ED</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
                             <ol class="breadcrumb">
@@ -38,7 +38,7 @@ include './config/config.php';
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading">
-                            <h2>DIRECTOR'S REVIEW</h2>
+                            <h2>MESSAGE FROM ED</h2>
                             <span class="center-line"></span>
                         </div>
                         <p>Dunham Bush The best in Air-Conditioning<br>
@@ -74,7 +74,6 @@ include './config/config.php';
                     </div>                   
                 </div>               
             </div>                     
-            <?php include basePath('news_letter.php') ?>
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>

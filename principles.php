@@ -36,23 +36,19 @@ include './config/config.php';
             <div class="container">
                 <div class="divide80"></div>
                 <div class="row">
-                    <div class="col-md-4 margin20">
-                        <h3 class="heading">Our Vision</h3>
+                    <div class="col-md-6 margin20">
+                        <h3 class="heading">Vision</h3>
                         <p>To make the environment more human friendly & user acceptable at an optimum cost</p>
                     </div>
-                    <div class="col-md-4 margin20">
-                        <h3 class="heading">Our Mission</h3>
+                    <div class="col-md-6 margin20">
+                        <h3 class="heading">Mission</h3>
 
                         <p>To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh</p>
-                    </div>
-                    <div class="col-md-4 margin20">
-                        <h3>&nbsp;</h3>
-                        <p class="dropcap">Most Business Count Their Experience By Years. We Measure Ours By Decades.</p>
-                    </div>
+                    </div>                   
                 </div>
                 <div class="row">
                     <div class="col-md-4 margin20">
-                        <h3 class="heading">Our Objectives</h3>
+                        <h3 class="heading">Goals</h3>
                         <p>
                            Earning a revenue by making people comfortable by
                         </p>
@@ -72,7 +68,6 @@ include './config/config.php';
                     </div>
                 </div>
             </div>                       
-           <?php include basePath('news_letter.php') ?>
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>

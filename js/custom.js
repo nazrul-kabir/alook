@@ -194,14 +194,17 @@ $(document).ready(function () {
                 "border": "1px solid red"
             });
             status++;
+            $("#successDiv").hide();
         }
         if (sub_email != '' && !validateEmail(sub_email)) {
             status++;
+            $("#successDiv").hide();
             $("#sub_email").css({
                 "border": "1px solid red"
             });
         }
         $('#sub_email').keyup(function () {
+            $("#successDiv").hide();
             $("#sub_email").css({
                 "border": "1px solid #A4D7F1"
             });
@@ -220,7 +223,6 @@ $(document).ready(function () {
                         var flag = obj.flag;
                         if (flag == '1') {
                             $("#successDiv").show();
-                            $("#defaultDiv").hide();
                         }
                     } else {
                         alert('Error');

@@ -55,7 +55,6 @@ if ($result_client) {
                     <?php endif; ?>
                 </div>
             </div>
-            <?php include './news_letter.php'; ?>
             <?php include './footer.php'; ?>
         </div>
         <?php include './footer_script.php'; ?>

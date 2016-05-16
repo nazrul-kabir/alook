@@ -14,8 +14,6 @@ if ($resultClient) {
             <div class="row">
                 <div class="col-md-12">
                     <div class="center-heading">
-                        <h2 style="color: black">Trusted Nationwide</h2>
-                        <span class="center-line"></span>
                         <p class="lead">
                             Most business count their experience by years.
                             We measure by decades.

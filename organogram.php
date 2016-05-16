@@ -45,7 +45,6 @@ include './config/config.php';
                     </div>                   
                 </div>               
            </div>                     
-             <?php include basePath('news_letter.php') ?>
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>

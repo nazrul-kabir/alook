@@ -104,8 +104,7 @@ if ($id > 0 && $id != '') {
                         <?php endif; ?>                
                     </div>                      
                 </div>               
-            </div>   
-            <?php include basePath('news_letter.php') ?>
+            </div>               
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>

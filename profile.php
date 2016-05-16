@@ -1,4 +1,4 @@
-<?php 
+<?php
 include './config/config.php';
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ include './config/config.php';
     </head>
     <body id="boxed">
         <div class="boxed-wrapper">
-           <?php include basePath('header.php'); ?>    
+            <?php include basePath('header.php'); ?>    
             <div class="breadcrumb-wrap">
                 <div class="container">
                     <div class="row">
@@ -30,6 +30,44 @@ include './config/config.php';
             </div>
             <div class="container">
                 <div class="divide20"></div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="center-heading">
+                            <h2>VISION</h2>
+                            <span class="center-line"></span>
+                        </div>
+                        <p style="text-align: justify;">To make the environment more human friendly & user acceptable at an optimum cost</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="center-heading">
+                            <h2>MISSION</h2>
+                            <span class="center-line"></span>
+                        </div>
+                        <p style="text-align: justify;">To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="center-heading">
+                        <h2>GOALS</h2>
+                        <span class="center-line"></span>
+                        <p>
+                            Earning a revenue by making people comfortable by
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled highlight-list">
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Supplying, Installing, Commissioning state-of-the art Heating, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ventilating, Air-conditioning & Refrigerating Equipment</li>
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Importing HVAC equipment</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled highlight-list">
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Manufacturing water heaters & accessories</li>
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Uninterrupted after-sales-service and maintenance to the clients</li>
+                            <li style="line-height: 25px;"><i class="fa fa-check"></i> Continuous contribution to business development of the country</li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="col-md-12">
                     <div class="center-heading">
                         <h2>ALOOK'S PROFILE</h2>
@@ -198,7 +236,6 @@ include './config/config.php';
                     </ul>
                 </div>
             </div>                       
-            <?php include basePath('news_letter.php') ?>
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>
