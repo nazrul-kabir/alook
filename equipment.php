@@ -32,11 +32,11 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                     left: -9999px;
                 }
 
-                #no-more-tables tr { border: 1px solid #10218B; }
+                #no-more-tables tr { border: 1px solid #333; }
 
                 #no-more-tables td { 
                     border: none;
-                    border-bottom: 1px solid #10218B; 
+                    border-bottom: 1px solid #333; 
                     position: relative;
                     padding-left: 50%; 
                     white-space: normal;
@@ -85,7 +85,7 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                         <?php if (count($arrayEquipment) > 0): ?>
                             <div id="no-more-tables">
                                 <table class="col-md-12 table-bordered table-striped table-condensed">
-                                    <thead class="" style="background-color: #06187c;color: white">
+                                    <thead class="" style="background-color: #333333;color: white">
                                         <tr>
                                             <th style="width: 10%;">SL. No</th>
                                             <th style="width: 40%;">Name of item</th>
@@ -114,7 +114,6 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                 </div>               
             </div>        
             <div style="height: 20px;"></div>
-             <?php include basePath('news_letter.php') ?>
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>

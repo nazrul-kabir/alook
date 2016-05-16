@@ -34,11 +34,11 @@ if ($resultUnder) {
                     left: -9999px;
                 }
 
-                #no-more-tables tr { border: 1px solid #06187c; }
+                #no-more-tables tr { border: 1px solid #333; }
 
                 #no-more-tables td { 
                     border: none;
-                    border-bottom: 1px solid #06187c; 
+                    border-bottom: 1px solid #333; 
                     position: relative;
                     padding-left: 50%; 
                     white-space: normal;
@@ -86,7 +86,7 @@ if ($resultUnder) {
                         <?php if (count($arrayUnder) > 0): ?>
                             <div id="no-more-tables">
                                 <table class="col-md-12 table-bordered table-striped table-condensed">
-                                    <thead class="" style="background-color: #06187c;color: white">
+                                    <thead class="" style="background-color: #333333;color: white">
                                         <tr>
                                             <th style="width: 10%;">SL. No</th>
                                             <th style="width: 45%;">Name of the job / Project with location</th>
