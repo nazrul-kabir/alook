@@ -32,11 +32,11 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                     left: -9999px;
                 }
 
-                #no-more-tables tr { border: 1px solid #ccc; }
+                #no-more-tables tr { border: 1px solid #10218B; }
 
                 #no-more-tables td { 
                     border: none;
-                    border-bottom: 1px solid #eee; 
+                    border-bottom: 1px solid #10218B; 
                     position: relative;
                     padding-left: 50%; 
                     white-space: normal;
@@ -84,20 +84,20 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                         
                         <?php if (count($arrayEquipment) > 0): ?>
                             <div id="no-more-tables">
-                                <table class="col-md-12 table-bordered table-striped table-condensed cf">
-                                    <thead class="cf">
+                                <table class="col-md-12 table-bordered table-striped table-condensed">
+                                    <thead class="" style="background-color: #06187c;color: white">
                                         <tr>
-                                            <th>Sl. No</th>
-                                            <th>Name of item</th>
-                                            <th>Qty</th>
-                                            <th>Short Description</th>
+                                            <th style="width: 10%;">SL. No</th>
+                                            <th style="width: 40%;">Name of item</th>
+                                            <th style="width: 10%;">Qty</th>
+                                            <th style="width: 40%;">Short Description</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <?php $count = 1; ?>
                                         <?php foreach ($arrayEquipment AS $equipment): ?>
                                             <tr>
-                                                <td><?php echo $count; ?></td>
+                                                <td data-title="SL No"><?php echo $count; ?></td>
                                                 <td data-title="Name of item"><?php echo $equipment->equipment_name; ?></td>
                                                 <td data-title="Qty"><?php echo $equipment->equipment_qty; ?></td>
                                                 <td data-title="Description"><?php echo $equipment->equipment_details; ?></td>

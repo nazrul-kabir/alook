@@ -57,7 +57,7 @@ if ($id > 0 && $id != '') {
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container" style="min-height: 400px;">
                 <div class="divide20"></div>
                 <div class="row">
                     <div class="col-md-12">

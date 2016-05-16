@@ -34,11 +34,11 @@ if ($resultUnder) {
                     left: -9999px;
                 }
 
-                #no-more-tables tr { border: 1px solid #ccc; }
+                #no-more-tables tr { border: 1px solid #06187c; }
 
                 #no-more-tables td { 
                     border: none;
-                    border-bottom: 1px solid #eee; 
+                    border-bottom: 1px solid #06187c; 
                     position: relative;
                     padding-left: 50%; 
                     white-space: normal;
@@ -85,12 +85,12 @@ if ($resultUnder) {
                     <div class="col-md-12">
                         <?php if (count($arrayUnder) > 0): ?>
                             <div id="no-more-tables">
-                                <table class="col-md-12 table-bordered table-striped table-condensed cf">
-                                    <thead class="cf">
+                                <table class="col-md-12 table-bordered table-striped table-condensed">
+                                    <thead class="" style="background-color: #06187c;color: white">
                                         <tr>
-                                            <th>Sl. No</th>
-                                            <th>Name of the job / Project with location</th>
-                                            <th>Short particulars of the project in terms of capacity & type</th>
+                                            <th style="width: 10%;">SL. No</th>
+                                            <th style="width: 45%;">Name of the job / Project with location</th>
+                                            <th style="width: 45%;">Short particulars of the project in terms of capacity & type</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -98,8 +98,8 @@ if ($resultUnder) {
                                         <?php foreach ($arrayUnder AS $maintainance): ?>
                                             <tr>
                                                 <td data-title="Sl. No"><?php echo $count; ?></td>
-                                                <td data-title="Name of the job"><?php echo $maintainance->project_name; ?></td>
-                                                <td data-title="Short particulars"><?php echo $maintainance->project_details; ?></td>
+                                                <td data-title="Name Of Job"><?php echo $maintainance->project_name; ?></td>
+                                                <td data-title="Short Desc"><?php echo $maintainance->project_details; ?></td>
                                             </tr>
                                             <?php $count++; ?>
                                         <?php endforeach; ?>

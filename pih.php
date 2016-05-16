@@ -34,11 +34,11 @@ if ($resultHand) {
                     left: -9999px;
                 }
 
-                #no-more-tables tr { border: 1px solid #ccc; }
+                #no-more-tables tr { border: 1px solid #10218B; }
 
                 #no-more-tables td { 
                     border: none;
-                    border-bottom: 1px solid #eee; 
+                    border-bottom: 1px solid #10218B; 
                     position: relative;
                     padding-left: 50%; 
                     white-space: normal;
@@ -85,14 +85,14 @@ if ($resultHand) {
                     <div class="col-md-12">
                         <?php if (count($arrayHand) > 0): ?>
                             <div id="no-more-tables">
-                                <table class="col-md-12 table-bordered table-striped table-condensed cf">
-                                    <thead class="cf">
+                                <table class="col-md-12 table-bordered table-striped table-condensed">
+                                    <thead class="" style="background-color: #06187c;color: white">
                                         <tr>
-                                            <th>Sl. No</th>
-                                            <th>Name of the job / Project with location</th>
-                                            <th>Short particulars of the project in terms of capacity & type</th>
-                                            <th>Date of commencement</th>
-                                            <th class="numeric">Progress %</th>
+                                            <th style="width: 10%;">Sl. No</th>
+                                            <th style="width: 40%;">Name of the job / Project with location</th>
+                                            <th style="width: 30%;">Short particulars of the project in terms of capacity & type</th>
+                                            <th style="width: 10%;">Date of commencement</th>
+                                            <th class="" style="width: 10%;">Progress %</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -100,8 +100,8 @@ if ($resultHand) {
                                         <?php foreach ($arrayHand AS $inhand): ?>
                                             <tr>
                                                 <td data-title="Sl. No"><?php echo $count; ?></td>
-                                                <td data-title="Name of the job"><?php echo $inhand->project_name; ?></td>
-                                                <td data-title="Short particulars"><?php echo $inhand->project_details; ?></td>
+                                                <td data-title="Name of job"><?php echo $inhand->project_name; ?></td>
+                                                <td data-title="Short Desc."><?php echo $inhand->project_details; ?></td>
                                                 <td data-title="Date"><?php echo $inhand->project_date; ?></td>
                                                 <td data-title="Progress %" class="numeric"><?php echo $inhand->project_progress; ?>%</td>
                                             </tr>

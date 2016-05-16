@@ -34,11 +34,11 @@ if ($resultCompleted) {
                     left: -9999px;
                 }
 
-                #no-more-tables tr { border: 1px solid #ccc; }
+                #no-more-tables tr { border: 1px solid #10218B; }
 
                 #no-more-tables td { 
                     border: none;
-                    border-bottom: 1px solid #eee; 
+                    border-bottom: 1px solid #10218B; 
                     position: relative;
                     padding-left: 50%; 
                     white-space: normal;
@@ -86,22 +86,22 @@ if ($resultCompleted) {
                         
                         <?php if (count($arrayCompleted) > 0): ?>
                             <div id="no-more-tables">
-                                <table class="col-md-12 table-bordered table-striped table-condensed cf">
-                                    <thead class="cf">
+                                <table class="col-md-12 table-bordered table-striped table-condensed">
+                                    <thead class="" style="background-color: #06187c;color: white">
                                         <tr>
-                                            <th>Sl. No</th>
-                                            <th>Name of the job / Project with location</th>
-                                            <th>Short particulars of the project in terms of capacity & type</th>
-                                            <th>Date of commencement</th>
+                                            <th style="width: 10%;">SL. No</th>
+                                            <th style="width: 40%;">Name of the job / Project with location</th>
+                                            <th style="width: 40%;">Short particulars of the project in terms of capacity & type</th>
+                                            <th style="width: 10%;">Date of commencement</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <?php $count = 1; ?>
                                         <?php foreach ($arrayCompleted AS $completed): ?>
                                             <tr>
-                                                <td data-title="Sl. No"><?php echo $count; ?></td>
-                                                <td data-title="Name of the job"><?php echo $completed->project_name; ?></td>
-                                                <td data-title="Short particulars"><?php echo $completed->project_details; ?></td>
+                                                <td data-title="SL. No"><?php echo $count; ?></td>
+                                                <td data-title="Name of job"><?php echo $completed->project_name; ?></td>
+                                                <td data-title="Short Desc."><?php echo $completed->project_details; ?></td>
                                                 <td data-title="Date"><?php echo $completed->project_date; ?></td>
                                             </tr>
                                             <?php $count++; ?>
