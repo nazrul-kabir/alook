@@ -10,6 +10,7 @@
 <link href="css/yamm.css" rel="stylesheet" type="text/css">
 <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
 <link href="css/client.css" rel="stylesheet" type="text/css"><!-- Client Slider CSS -->
+<link href="css/aqpb-view.css" rel="stylesheet" type="text/css"><!-- Client Slider CSS -->
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>

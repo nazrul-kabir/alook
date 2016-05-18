@@ -1,6 +1,7 @@
 <?php
 include '../../../config/config.php';
 $banner_title = '';
+$banner_details = '';
 $banner_status = '';
 $banner_image = '';
 $banner_updated_by = getSession('admin_id');
@@ -26,6 +27,7 @@ if (isset($_POST['banner_title'])) {
     extract($_POST);
 
     $banner_title = validateInput($banner_title);
+    $banner_details = validateInput($banner_details);
     $banner_status = validateInput($banner_status);
 
     // check banner exist
@@ -58,6 +60,7 @@ if (isset($_POST['banner_title'])) {
         // Image upload code end
         $custom_array = '';
         $custom_array .= 'banner_title = "' . $banner_title . '"';
+        $custom_array .= ',banner_details = "' . $banner_details . '"';
         if ($_FILES["banner_image"]["tmp_name"] != '') {
             $custom_array .= ',banner_image = "' . $renameFile . '"';
         }
@@ -86,6 +89,7 @@ if ($resultData) {
     $obj = mysqli_fetch_object($resultData);
     $banner_title = $obj->banner_title;
     $banner_status = $obj->banner_status;
+    $banner_details = $obj->banner_details;
 } else {
     
 }
@@ -142,6 +146,10 @@ if ($resultData) {
                                                         <div class="form-group">
                                                             <label for="banner_title">Banner Title &nbsp;&nbsp;<span style="color:red;">*</span></label>
                                                             <input type="text" class="form-control" id="banner_title" name="banner_title" value="<?php echo $banner_title; ?>" required="required" />
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="banner_details">Banner Details &nbsp;&nbsp;<span style="color:red;">*</span></label>
+                                                            <input type="text" class="form-control" id="banner_details" name="banner_details" value="<?php echo $banner_details; ?>" required="required" />
                                                         </div>
                                                         <div class="form-group">
                                                             <label for="banner_image">Banner Image&nbsp;&nbsp;<span style="color:red;">*</span></label>

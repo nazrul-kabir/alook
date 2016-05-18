@@ -30,22 +30,27 @@ include './config/config.php';
             </div>
             <div class="container">
                 <div class="divide20"></div>
-                <div class="col-md-12">
+                <div class="col-md-12 wow animated fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                     <div class="col-md-6">
-                        <div class="center-heading">
-                            <h2>VISION</h2>
-                            <span class="center-line"></span>
+                        <div class="contact-option-circle" style="border: 1px solid #DAD8D8; box-shadow:-8px -2px 10px #888888">
+                            <div class="center-heading" >
+                                <h2>VISION</h2>
+                                <span class="center-line"></span>
+                            </div>
+                            <p>To make the environment more human friendly & user acceptable at an optimum cost</p>
                         </div>
-                        <p style="text-align: justify;">To make the environment more human friendly & user acceptable at an optimum cost</p>
                     </div>
                     <div class="col-md-6">
-                        <div class="center-heading">
-                            <h2>MISSION</h2>
-                            <span class="center-line"></span>
-                        </div>
-                        <p style="text-align: justify;">To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh</p>
+                        <div class="contact-option-circle" style="border: 1px solid #DAD8D8; box-shadow:-8px -2px 10px #888888">
+                            <div class="center-heading" >
+                                <h2>MISSION</h2>
+                                <span class="center-line"></span>
+                            </div>
+                            <p style="text-align: justify;">To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh</p>
+                        </div>                       
                     </div>
                 </div>
+                <div class="col-md-12 divide20"></div>
                 <div class="col-md-12">
                     <div class="center-heading">
                         <h2>GOALS</h2>

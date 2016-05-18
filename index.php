@@ -24,35 +24,7 @@ if ($resultProduct) {
         <div class="boxed-wrapper">
             <?php include basePath('header.php'); ?>            
             <!-- Slider Start -->
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="upload/slider-1.jpg" alt="First slide">
-                        <div class="carousel-caption hidden-sm hidden-xs">
-                            <h3>Dunham-Bush Air Conditioner</h3>
-                            <p style="color: black;">Split Mounted Type</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="upload/slider-2.jpg" alt="Second slide">
-                        <div class="carousel-caption hidden-sm hidden-xs">
-                            <h3>Dunham-Bush Air Conditioner</h3>
-                            <p style="color: black;">Cassette Split Type Inverter</p>
-                        </div>
-                    </div>
-                </div>
-                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                    <span class="fa fa-angle-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                    <span class="fa fa-angle-right"></span>
-                </a>
-            </div>
-            <div id="push"></div>
+            <?php include './banner.php'; ?>
             <!-- Slider End -->
             <section class="services-wrap">
                 <div class="container">

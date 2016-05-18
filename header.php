@@ -81,12 +81,20 @@ if ($result) {
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle " data-toggle="dropdown">PRODUCTS <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu multi-level" role="menu">
+                        
+                        <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=1">DOMESTIC</a></li>
+                        <li><a tabindex="-1" href="<?php echo baseUrl(); ?>industrial_products.php">INDUSTRIAL</a></li>
+                            
+                         <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=3">LOCAL PRODUCTS</a></li>
+                    </ul>
+<!--                    <ul class="dropdown-menu multi-level" role="menu">
                         <?php if (count($array) > 0): ?>
                             <?php foreach ($array AS $productType): ?>
                         <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=<?php echo $productType->product_type_id; ?>"><?php echo $productType->product_type_name; ?></a></li>
                             <?php endforeach; ?>
-                        <?php endif; ?>                                   
-                    </ul>
+                        <?php endif; ?> 
+                         <li><a tabindex="-1" href="<?php echo baseUrl(); ?>test.php">dcff</a></li>
+                    </ul>                   -->
                 </li>
                 <li class="dropdown ">
                     <a href="#" class="dropdown-toggle " data-toggle="dropdown">PROJECTS <i class="fa fa-angle-down"></i></a>

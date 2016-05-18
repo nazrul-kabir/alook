@@ -1,19 +1,21 @@
 <?php
 include '../../../config/config.php';
 $banner_title = '';
+$banner_details = '';
 $banner_status = '';
 $banner_image = '';
 $banner_created_on = date('Y-m-d H:i:s');
 $banner_created_by = getSession('admin_id');
 $flag = 0;
-if (isset($_POST['banner_title'])) {
+if (isset($_POST['banner_details'])) {
     extract($_POST);
 
-    $banner_title = validateInput($banner_title);
+//    $banner_title = validateInput($banner_title);
     $banner_status = validateInput($banner_status);
+    $banner_details = validateInput($banner_details);
 
     // check banner exists
-    $sql_check = "SELECT * FROM banner WHERE banner_title = '$banner_title'";
+    $sql_check = "SELECT * FROM banner WHERE banner_details = '$banner_details'";
     $result_check = mysqli_query($con, $sql_check);
     $count = mysqli_num_rows($result_check);
     if ($count > 0) {
@@ -43,6 +45,7 @@ if (isset($_POST['banner_title'])) {
         if ($flag == 0) {
             $custom_array = '';
             $custom_array .= 'banner_title = "' . $banner_title . '"';
+            $custom_array .= ',banner_details = "' . $banner_details . '"';
             $custom_array .= ',banner_image = "' . $renameFile . '"';
             $custom_array .= ',banner_status = "' . $banner_status . '"';
             $custom_array .= ',banner_created_on = "' . $banner_created_on . '"';
@@ -119,6 +122,10 @@ if (isset($_POST['banner_title'])) {
                                                             <input type="text" class="form-control" id="banner_title" name="banner_title" value="<?php echo $banner_title; ?>" required="required" />
                                                         </div>
                                                         <div class="form-group">
+                                                            <label for="banner_details">Banner Details &nbsp;&nbsp;<span style="color:red;">*</span></label>
+                                                            <input type="text" class="form-control" id="banner_details" name="banner_details" value="<?php echo $banner_details; ?>" required="required" />
+                                                        </div>
+                                                        <div class="form-group">
                                                             <label for="banner_image">Banner Image&nbsp;&nbsp;<span style="color:red;">*</span></label>
                                                             <input type="file" name="banner_image" id="banner_image" />
                                                         </div>
@@ -176,13 +183,13 @@ if (isset($_POST['banner_title'])) {
                     var banner_image = $('input[type="file"]').val();
                     var banner_status = $("#banner_status option:selected").val();
                     var status = 0;
-                    if (banner_title == '') {
-                        status++;
-                        $("#errorShow").show();
-                        $("#banner_title").css({
-                            "border": "1px solid red"
-                        });
-                    }
+//                    if (banner_title == '') {
+//                        status++;
+//                        $("#errorShow").show();
+//                        $("#banner_title").css({
+//                            "border": "1px solid red"
+//                        });
+//                    }
                     if (banner_image == '') {
                         status++;
                         $("#errorShow").show();

@@ -72,7 +72,7 @@ if (isset($_POST['contact_name'])) {
                             <div class="col-md-4 margin30">
                                 <div class="contact-option-circle">
                                     <i class="fa fa-home"></i>
-                                    <p>Alook Tower (3rd Floor), 47/1 Shahid Tajuddin Ahmed</p><p> Sarani, Mohakhali,Dhaka-1212</p>
+                                    <p>Alook Tower (3rd Floor), 47/1 Shahid Tajuddin Ahmed Sarani, Mohakhali,Dhaka-1212</p>
                                 </div>
                             </div>
                             <div class="col-md-4 margin30">
@@ -146,7 +146,7 @@ if (isset($_POST['contact_name'])) {
                                 </div>                                
                                 <div class="row">
                                     <div class="form-group col-xs-12">
-                                        <button type="button" return="false" id="btnContact" name="btnContact" class="btn btn-primary" style="background: #CCC;border: 2px solid #CCC;color: black;box-shadow: 2px 2px 5px #888888;font-weight: bold;">Send Message</button>
+                                        <button type="button" return="false" id="btnContact" name="btnContact" class="btn btn-primary" style="background: #F4F4F4;border: 2px solid #F4F4F4;color: black;box-shadow: 2px 2px 5px #888888;font-weight: bold;">Send Message</button>
                                     </div>
                                 </div>
 
@@ -244,13 +244,5 @@ if (isset($_POST['contact_name'])) {
                 });
             });
         </script>
-        <!--        .featured-box .box-content {
-            border-radius: 8px;
-            border-top: 1px solid #CCC;
-            border-top-width: 4px;
-            padding: 30px 30px 10px 30px;
-            position: relative;
-            top: -1px;
-        }-->
     </body>
 </html>
