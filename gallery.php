@@ -43,9 +43,9 @@ include './config/config.php';
                         </div>
                         <div class="col-md-3">
                             <div class="item-img-wrap ">
-                                <img src="upload/product_1.jpg" class="img-responsive" alt="workimg">
+                                <img src="upload/product_image/PDI20160511100159.jpg" class="img-responsive" alt="workimg">
                                 <div class="item-img-overlay">
-                                    <a href="upload/product_1.jpg" class="show-image">
+                                    <a href="upload/product_image/PDI20160511100159.jpg" class="show-image">
                                         <span></span>
                                     </a>
                                 </div>
@@ -56,9 +56,9 @@ include './config/config.php';
                         </div>                        
                         <div class="col-md-3">
                             <div class="item-img-wrap ">
-                                <img src="upload/product_2.jpg" class="img-responsive" alt="workimg">
+                                <img src="upload/product_image/PDI20160511100246.jpg" class="img-responsive" alt="workimg">
                                 <div class="item-img-overlay">
-                                    <a href="upload/product_2.jpg" class="show-image">
+                                    <a href="upload/product_image/PDI20160511100246.jpg" class="show-image">
                                         <span></span>
                                     </a>
                                 </div>
@@ -69,9 +69,9 @@ include './config/config.php';
                         </div>                        
                         <div class="col-md-3">
                             <div class="item-img-wrap ">
-                                <img src="upload/product_3.jpg" class="img-responsive" alt="workimg">
+                                <img src="upload/product_image/PDI20160511100246.jpg" class="img-responsive" alt="workimg">
                                 <div class="item-img-overlay">
-                                    <a href="upload/product_3.jpg" class="show-image">
+                                    <a href="upload/product_image/PDI20160511100246.jpg" class="show-image">
                                         <span></span>
                                     </a>
                                 </div>
@@ -82,9 +82,9 @@ include './config/config.php';
                         </div>  
                         <div class="col-md-3">
                             <div class="item-img-wrap ">
-                                <img src="upload/product_3.jpg" class="img-responsive" alt="workimg">
+                                <img src="upload/product_image/PDI20160511100159.jpg" class="img-responsive" alt="workimg">
                                 <div class="item-img-overlay">
-                                    <a href="upload/product_3.jpg" class="show-image">
+                                    <a href="upload/product_image/PDI20160511100159.jpg" class="show-image">
                                         <span></span>
                                     </a>
                                 </div>
@@ -92,7 +92,7 @@ include './config/config.php';
                             <div class="work-desc">
                                 <span>Dunham-Bush</span>
                             </div>
-                        </div>  
+                        </div> 
                     </div>                      
                 </div>               
             </div>                   

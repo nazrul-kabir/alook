@@ -31,12 +31,12 @@ include './config/config.php';
             <div class="container">
                 <div class="divide20"></div>
                 <div class="col-md-12">
-                    <div class="panel-group" id="accordion2">
-                        <div class="panel panel-primary panel-ico active">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                        <i class="fa fa-desktop" style="color: white"></i> VISION
+                                        <i class="fa fa-desktop" style="color: black"></i> VISION
                                     </a>
                                 </h4>
                             </div>
@@ -45,32 +45,32 @@ include './config/config.php';
                                     To make the environment more human friendly & user acceptable at an optimum cost.
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-primary panel-ico">
+                        </div><!--panel end-->
+                        <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                        <i class="fa fa-crop" style="color: white"></i> MISSION 
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsetwo">
+
+                                        <i class="fa fa-crop" style="color: black"></i> MISSION
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseTwo" class="panel-collapse collapse">
+                            <div id="collapsetwo" class="panel-collapse collapse ">
                                 <div class="panel-body">
                                     To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh.
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-primary panel-ico">
+                        </div><!--panel end-->
+                        <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                        <i class="fa fa-cogs" style="color: white"></i>    GOALS
-                                    </a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsethree">
+                                         <i class="fa fa-cogs" style="color: black"></i> GOALS</a>
                                 </h4>
                             </div>
-                            <div id="collapseThree" class="panel-collapse collapse">
+                            <div id="collapsethree" class="panel-collapse collapse ">
                                 <div class="panel-body">
-                                    Earning a revenue by making people comfortable by:
+                                    <p style="text-align: center;">Earning a revenue by making people comfortable by:</p>
                                     <div class="col-md-12">
                                         <div class="col-md-6">
                                             <ul class="list-unstyled highlight-list">
@@ -88,8 +88,8 @@ include './config/config.php';
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </div><!--panel end-->
+                    </div>                    
                 </div>                
                 <div class="col-md-12">
                     <div class="center-heading">
