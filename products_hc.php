@@ -18,7 +18,7 @@ if ($resultProduct) {
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Alook Refrigeration CO. Ltd | Products | <?php echo $product_type_name; ?></title>
+        <title>Alook Refrigeration CO. Ltd | Products</title>
         <?php include basePath('header_script.php'); ?>
         <style>
             p{text-align: justify;}
@@ -50,7 +50,7 @@ if ($resultProduct) {
                             <h2>Heat Pump Chillers Water-Water & Air Water</h2>
                             <span class="center-line"></span>
                         </div>
-                        
+
                         <?php if (count($arrayProduct) > 0): ?>
                             <?php foreach ($arrayProduct AS $product): ?>
                                 <div class="col-md-3 productDiv">

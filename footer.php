@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-4 ">
                 <div class="footer-col">
-                    <h3 style="text-align: center;">About Alook</h3>
+                    <h3>About Alook</h3>
                     <p style="text-align: justify;">
                         We feel blessed that Alook Refrigeration Company Limited has been continuing
                         to serve its clients for the last thirty years and that neither the clients 
