@@ -13,7 +13,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     background-color: #fff;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 /*
@@ -50,7 +50,7 @@ iframe {
 }
 
 strong, b {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     font-weight: 400;
 }
 
@@ -58,7 +58,7 @@ input,
 button,
 select,
 textarea, label {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
 }
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #060606;
     font-weight: 700;
     margin: 0;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 h1 {
@@ -141,7 +141,7 @@ h3.heading {
     text-transform: capitalize;
     overflow: hidden;
     vertical-align: middle;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 h3.heading:after {
@@ -546,7 +546,7 @@ pre:after, pre:before {
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -1082,7 +1082,7 @@ TOP BARS
 .footer-col p {
     color: #aeaeae;
     font-size: 16px;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 .contact p {
@@ -1243,7 +1243,7 @@ TOP BARS
     padding: 4px 0;
     color: #aeaeae;
     font-size: 16px;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 .latest-f-news li a i {
@@ -2809,7 +2809,7 @@ ul.post-desc li + li {
     font-size: 20px;
     line-height: 36px;
     font-style: normal;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 .testimonials h4 i {
@@ -3096,7 +3096,7 @@ ul.post-desc li + li {
     color: #fff;
     font-size: 25px;
     font-weight: 400;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 /****fun facts*****/
@@ -3127,7 +3127,7 @@ ul.post-desc li + li {
 .facts-in h4 {
     margin-bottom: 0px;
     color: #fff;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -3224,7 +3224,7 @@ ul.post-desc li + li {
     letter-spacing: 8px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 ol.breadcrumb {
@@ -3247,7 +3247,7 @@ ol.breadcrumb li a {
 
 /***list of highlight**/
 .highlight-list li {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     font-size: 16px;
     color: #777;
     line-height: 45px;
@@ -3879,7 +3879,7 @@ label span {
     -moz-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
     -ms-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
     box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 .panel-group .panel-heading a {
@@ -4208,7 +4208,7 @@ label span {
     line-height: 30px;
     margin-bottom: 30px;
     margin-top: 25px;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 @media (max-width: 433px) {
@@ -4928,7 +4928,7 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .intro-text-default h4 {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 30px;
@@ -5002,7 +5002,7 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .testimonials-light h4 {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     font-weight: 400;
     color: #000;
     font-style: normal;
@@ -5188,7 +5188,7 @@ MULTI LEVEL DROPDOWN CSS
 
 .fun-fact-wrap-light .facts-in h4 {
     color: #000;
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     font-weight: 400;
     text-transform: lowercase;
     font-style: normal;
@@ -5642,12 +5642,12 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .portfolio-cube .cbp-l-grid-projects-title {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     text-transform: uppercase;
 }
 
 .portfolio-cube .cbp-l-filters-button .cbp-filter-item {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     text-transform: uppercase;
 }
 
@@ -5663,12 +5663,12 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .cube-masonry .cbp-l-caption-title {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
     text-transform: uppercase;
 }
 
 .cube-masonry .cbp-l-caption-desc {
-    font-family: "Poppins",sans-serif;
+    font-family: "Open Sans";
 }
 
 /************pace style for page pre-loader********/
