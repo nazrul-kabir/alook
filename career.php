@@ -22,7 +22,7 @@ include './config/config.php';
                         <div class="col-sm-6 hidden-xs text-right">
                             <ol class="breadcrumb">
                                 <li><a href="index.php">HOME</a></li>
-                                <li>ABOUT US</li>
+                                <li>CAREER</li>
                             </ol>
                         </div>
                     </div>

@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class="footer-col" style="height:289px; box-shadow: 0 4px 8px 0 rgb(41, 39, 39), 0 6px 20px 0 rgb(115, 110, 110); border: 1px solid #545454; padding: 10px;">
-                    <h3 style="text-align: center;">About Alook</h3>
+                <div class="footer-col" style="height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;">
+                    <h3 style="text-align: center;letter-spacing: 2px;">About Alook</h3>
                     <p style="text-align: justify;">
                         We feel blessed that Alook Refrigeration Company Limited has been continuing
                         to serve its clients for the last thirty years and that neither the clients 
@@ -12,8 +12,8 @@
                 </div>                        
             </div><!--footer col-->
             <div class="col-md-3">
-                <div class="footer-col" style="height:289px;box-shadow: 0 4px 8px 0 rgb(41, 39, 39), 0 6px 20px 0 rgb(115, 110, 110); border: 1px solid #545454; padding: 10px;">
-                    <h3 style="text-align: center;">Contact</h3>
+                <div class="footer-col" style="height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;">
+                    <h3 style="text-align: center;letter-spacing: 2px;">Contact</h3>
                     <ul class="list-unstyled contact">
                         <li><p><strong><i class="fa fa-map-marker"></i> Address:</strong> Alook Tower (3rd Floor), 47/1 Shahid Tajuddin Ahmed Sarani, Mohakhali, Dhaka-1212</p></li> 
                         <li><p><strong><i class="fa fa-envelope"></i> Email:</strong><a href="#">alookref@gmail.com</a></p></li>
@@ -24,8 +24,8 @@
                 </div>                        
             </div>
             <div class="col-md-3">
-                <div class="footer-col" style="height:289px;box-shadow: 0 4px 8px 0 rgb(41, 39, 39), 0 6px 20px 0 rgb(115, 110, 110); border: 1px solid #545454; padding: 10px;">
-                    <h3 style="text-align: center;">Quick Links</h3> 
+                <div class="footer-col" style="height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;">
+                    <h3 style="text-align: center;letter-spacing: 2px;">Quick Links</h3> 
                     <ul class="list-unstyled latest-f-news">
                         <li><a href="javascript:void(0);"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Products</a></li>
                         <li><a href="<?php echo baseUrl(); ?>all_client.php"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Clients</a></li>
@@ -37,8 +37,8 @@
                 </div>                        
             </div>
             <div class="col-md-3">
-                <div class="footer-col" style="height:289px;box-shadow: 0 4px 8px 0 rgb(41, 39, 39), 0 6px 20px 0 rgb(115, 110, 110); border: 1px solid #545454; padding: 10px;">
-                    <h3 style="text-align: center;">Newsletter</h3>
+                <div class="footer-col" style="height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;">
+                    <h3 style="text-align: center;letter-spacing: 2px;">Newsletter</h3>
                     <p>
                         Subscribe To Get Our Update
                     </p>
@@ -55,9 +55,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="container-fluid text-center" style="padding-right: 0px; padding-left: 0px;">
                 <div class="footer-btm">
-                    <span style="color: white;">&copy; 2016 Alook Refrigeration Company Limited. Designed by- <a href="http://www.arkhairul.com" style="color: white;">MK IT Geeks</a></span>
+                    <span style="color: black;">&copy; <?php echo date('Y') ?> Alook Refrigeration Company Limited. Developed by- <a href="http://www.arkhairul.com" style="color: gray;">MK IT Geeks</a></span>
                 </div>
             </div>
         </div>
