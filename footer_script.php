@@ -17,7 +17,7 @@
 <!-- Client Sldier Script Start -->
 <script src="js/jquery.client.js" type="text/javascript"></script>
 <script type="text/javascript">
-    $(window).load(function () {        
+    $(window).load(function () {
         $("#clientslider").flexisel({
             visibleItems: 5,
             animationSpeed: 1000,
@@ -42,4 +42,19 @@
         });
     });
 </script>
-<!-- Client Sldier Script End -->
+<!-- Client Slider Script End -->
+<script type="text/javascript">
+    $(function () {
+        $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+                    $(this).toggleClass('open');
+                    $('b', this).toggleClass("caret caret-up");
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+                    $(this).toggleClass('open');
+                    $('b', this).toggleClass("caret caret-up");
+                });
+    });
+</script>

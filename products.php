@@ -45,13 +45,12 @@ if ($id > 0 && $id != '') {
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h4>PRODUCTS</h4>
+                            <h4><?php echo $product_type_name; ?></h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
                             <ol class="breadcrumb">
                                 <li><a href="index.php">HOME</a></li>
                                 <li>PRODUCTS</li>
-                                <li><?php echo $product_type_name; ?></li>
                             </ol>
                         </div>
                     </div>
@@ -111,11 +110,9 @@ if ($id > 0 && $id != '') {
         <script>
             $(document).ready(function () {
                 var maxHeight = -1;
-
                 $('.productDiv').each(function () {
                     maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
                 });
-
                 $('.productDiv').each(function () {
                     $(this).height(maxHeight);
                 });

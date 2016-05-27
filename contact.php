@@ -54,8 +54,8 @@ if (isset($_POST['contact_name'])) {
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
                             <ol class="breadcrumb">
-                                <li><a href="index.php">Home</a></li>
-                                <li>Contact us</li>
+                                <li><a href="index.php">HOME</a></li>
+                                <li>CONTACT US</li>
                             </ol>
                         </div>
                     </div>

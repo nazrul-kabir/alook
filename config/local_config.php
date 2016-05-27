@@ -12,6 +12,16 @@ if ($domain == 'arkhairul.com') {
     $config['DB_NAME'] = 'arkhairu_alook';
     $config['DB_USER'] = 'arkhairu_aladmin';
     $config['DB_PASSWORD'] = 'z7!{JaS=T]*S';
+} elseif ($domain == 'arshiapps.com') {
+    $config['SITE_NAME'] = 'ALOOK';
+    $config['ADMIN_SITE_NAME'] = 'ALOOK | ADMIN PANEL';
+    $config['BASE_URL'] = 'http://arshiapps.com/demo/';
+    $config['ROOT_DIR'] = '/home/arshiapps/public_html/demo/';
+    $config['DB_TYPE'] = 'mysql';
+    $config['DB_HOST'] = 'localhost';
+    $config['DB_NAME'] = 'arshiapp_demodb';
+    $config['DB_USER'] = 'arshiapp_demo';
+    $config['DB_PASSWORD'] = 'z7!{JaS=T]*S';
 } else {
     $config['SITE_NAME'] = 'ALOOK';
     $config['ADMIN_SITE_NAME'] = 'ALOOK | ADMIN PANEL';
