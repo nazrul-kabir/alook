@@ -101,12 +101,8 @@ if ($resultProduct) {
                 <section class="portfolio">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
-                                <div class="center-heading">
-                                    <h2>Products</h2>
-                                    <span class="center-line"></span>
-                                </div>
-                            </div>                   
+                            <div class="divide2"></div>
+                            <h2 style="text-align: center;padding: 5px;box-shadow: 0px 7px 5px #888888;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #10218B; background-color: #10218B">Products</h2>                                              
                         </div>
                         <div class="row">
                             <div class="col-md-12">                              

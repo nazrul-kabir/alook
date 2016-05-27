@@ -57,7 +57,7 @@
         <div class="row">
             <div class="container-fluid text-center" style="padding-right: 0px; padding-left: 0px;">
                 <div class="footer-btm">
-                    <span style="color: black;">&copy; <?php echo date('Y') ?> Alook Refrigeration Company Limited. Developed by- <a href="http://www.arkhairul.com" style="color: gray;">MK IT Geeks</a></span>
+                    <span style="color: #10218B;">&copy; <?php echo date('Y'); ?> Alook Refrigeration Company Limited. Developed By- <a href="http://www.arkhairul.com" style="color: gray;">MK IT Geeks</a></span>
                 </div>
             </div>
         </div>
