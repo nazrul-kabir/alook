@@ -541,11 +541,12 @@ pre:after, pre:before {
     font-weight: 400;
     text-transform: uppercase;
     font-family: "Open Sans";
+    letter-spacing: 0.5px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #10218B;
-    background-color: #F6F6F6;
+    /*background-color: #34383A;*/
     /*padding-bottom: 5px;*/
 }
 
@@ -1124,7 +1125,8 @@ TOP BARS
 }
 
 .contact a:hover {
-    color: #10218B;
+    color: white;
+    margin-left: 5px;
 }
 
 .f2-work li {

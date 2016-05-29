@@ -54,7 +54,7 @@ if ($result) {
         </div>
     </div>
 </div>
-<div class="navbar navbar-default navbar-static-top yamm sticky" role="navigation">
+<div class="navbar navbar-default navbar-static-top yamm sticky" role="navigation" style="background-color: #656870;">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -65,11 +65,11 @@ if ($result) {
             </button>
             <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="ALOOL REFRIJEGERATION COMPANY LIMITED" style=""></a>
         </div>
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse" >
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php"><i class="fa fa-home"></i></a></li>
-                <li class="dropdown ">
-                    <a href="#" class="dropdown-toggle " data-toggle="dropdown"><i class="fa fa-users"></i>&nbsp;ABOUT US <i class="fa fa-angle-down"></i></a>
+                <li><a href="index.php"><i class="fa fa-home fa-2x" style="color: white;margin-top: -5px;"></i></a></li>
+                <li class="dropdown " style="color: white;">
+                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" style="color: white;"><i class="fa fa-users"></i>&nbsp;ABOUT US <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu multi-level" role="menu">
                         <li><a tabindex="-1" href="profile.php">ALOOK'S PROFILE</a></li>
                         <li><a tabindex="-1" href="dunham_profile.php">DUNHAM-BUSH PROFILE</a></li>
@@ -79,7 +79,7 @@ if ($result) {
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle " data-toggle="dropdown"><i class="fa fa-shopping-cart"></i>&nbsp;PRODUCTS <i class="fa fa-angle-down"></i>&nbsp;</a>
+                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" style="color: white;"><i class="fa fa-shopping-cart"></i>&nbsp;PRODUCTS <i class="fa fa-angle-down"></i>&nbsp;</a>
                     <ul class="dropdown-menu multi-level" role="menu">
                         
                         <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=1">DOMESTIC</a></li>
@@ -97,17 +97,17 @@ if ($result) {
                     </ul>                   -->
                 </li>
                 <li class="dropdown ">
-                    <a href="#" class="dropdown-toggle " data-toggle="dropdown"><i class="fa fa-briefcase"></i>&nbsp;PROJECTS <i class="fa fa-angle-down"></i></a>
+                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" style="color: white;"><i class="fa fa-briefcase"></i>&nbsp;PROJECTS <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu multi-level" role="menu">
                         <li><a tabindex="-1" href="pc.php">PROJECTS COMPLETED</a></li>
                         <li><a tabindex="-1" href="pih.php">PROJECTS IN HAND</a></li>                                    
                         <li><a tabindex="-1" href="pum.php">PROJECTS UNDER MAINTAINANCE-CONTRACT</a></li>                                    
                     </ul>
                 </li>
-                <li><a href="equipment.php"><i class="fa fa-wrench"></i>&nbsp;EQUIPMENT</a></li>
-                <li><a href="gallery.php"><i class="fa fa-camera-retro"></i>&nbsp;GALLERY</a></li>
-                <li><a href="career.php"><i class="fa fa-globe"></i>&nbsp;CAREER</a></li>
-                <li><a href="contact.php"><i class="fa fa-phone"></i>&nbsp;CONTACT</a></li>
+                <li><a href="equipment.php" style="color: white;"><i class="fa fa-wrench" ></i>&nbsp;EQUIPMENT</a></li>
+                <li><a href="gallery.php" style="color: white;"><i class="fa fa-camera-retro"></i>&nbsp;GALLERY</a></li>
+                <li><a href="career.php" style="color: white;"><i class="fa fa-globe"></i>&nbsp;CAREER</a></li>
+                <li><a href="contact.php" style="color: white;"><i class="fa fa-phone"></i>&nbsp;CONTACT</a></li>
             </ul>
         </div>
     </div>

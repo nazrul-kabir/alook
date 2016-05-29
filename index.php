@@ -29,43 +29,43 @@ if ($resultProduct) {
             <section class="services-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="background-color: #10218B;height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;padding-right: 5px;">
                             <div class="center-heading">
-                                <h2>About Company</h2>
+                                <h2 style="color: white;letter-spacing: 1px;font-size: 25px;">About Company</h2>
                                 <span class="center-line"></span>
                             </div>
-                            <p style="text-align: justify">
+                            <p style="text-align: justify;color: #CCC;">
                                 Alook Refrigeration Company Limited has been continuing to serve its clients for 
                                 the last thirty years and that neither the clients nor Alook Refrigeration have developed any fatigue for each other.
                                 Rather, as we observe, bondage is getting stronger and stronger. What was a small proprietorship firm thirty years 
                                 back is now a noticeable actor in the field of Air-conditioning.
                             </p>
                         </div>                   
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="background-color: #10218B;height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;padding-left: 5px;">
                             <div class="center-heading">
-                                <h2>Why US?</h2>
+                                 <h2 style="color: white;letter-spacing: 1px;font-size: 25px;">Why US?</h2>
                                 <span class="center-line"></span>
                             </div>   
                             <div class="col-md-2 hidden-xs hidden-sm"></div>
                             <div class="col-md-8">
                                 <ul>
-                                    <li style="list-style: none;">
-                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Outstanding Customer Satisfaction
+                                    <li style="list-style: none;color: #CCC;">
+                                        <i class="fa fa-check" style=""></i>&nbsp;&nbsp;Outstanding Customer Satisfaction
                                     </li>
-                                    <li style="list-style: none;">
-                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;High Quality Product & Service
+                                    <li style="list-style: none;color: #CCC;">
+                                        <i class="fa fa-check"></i>&nbsp;&nbsp;High Quality Product & Service
                                     </li>
-                                    <li style="list-style: none;">
-                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Quality Project Delivery
+                                    <li style="list-style: none;color: #CCC;">
+                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Quality Project Delivery
                                     </li>
-                                    <li style="list-style: none;">
-                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Excellent Price Quality Ratio
+                                    <li style="list-style: none;color: #CCC;">
+                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Excellent Price Quality Ratio
                                     </li>
-                                    <li style="list-style: none;">
-                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Quick Supply - Respect Deadline
+                                    <li style="list-style: none;color: #CCC;">
+                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Quick Supply - Respect Deadline
                                     </li>
-                                    <li style="list-style: none;">
-                                        <i class="fa fa-check" style="color: #10218B;"></i>&nbsp;&nbsp;Efficient After Sales Service & Repair
+                                    <li style="list-style: none;color: #CCC;">
+                                        <i class="fa fa-check"></i>&nbsp;&nbsp;Efficient After Sales Service & Repair
                                     </li>
                                 </ul> 
                             </div>

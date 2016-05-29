@@ -34,7 +34,7 @@ if ($resultClient) {
                 </div>        
             </div>   
             <div class="col-md-12 text-center">
-                <a href="<?php echo baseUrl('all_client.php'); ?>" class="btn btn-theme-bg btn-lg wow animated fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><i class="fa fa-bars"></i> See all our clients</a>
+                <a href="<?php echo baseUrl('all_client.php'); ?>" class="btn btn-theme-bg btn-lg wow animated fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;font-size: 15px;"><i class="fa fa-bars"></i> See all our clients</a>
             </div>
         </div>
     </section> 
