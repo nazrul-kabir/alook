@@ -4,7 +4,7 @@
 </div>
 <div class="center-heading col-md-12 margin40">
     <!--<h2 class="">News & Events</h2>-->
-    <span class="center-line"></span>
+    <!--<span class="center-line"></span>-->
     <div id="news-carousel" class="owl-carousel owl-spaced">
         <div>
             <a href="#">
