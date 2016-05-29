@@ -2321,6 +2321,8 @@ h1.typed-text {
     background: #FFF;
     border-top: none;
     position: relative;
+    height: 80px;
+    border-bottom: 5px solid #10218B;
 }
 
 .work-desc:before {
