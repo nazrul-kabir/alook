@@ -8,7 +8,7 @@ if (isset($_GET['id'])) {
 if ($id > 0 && $id != '') {
     $sqlProductType = "SELECT product_type_name FROM product_type WHERE product_type_id=$id";
     $resultProductType = mysqli_query($con, $sqlProductType);
-    if($resultProductType){
+    if ($resultProductType) {
         $objProductType = mysqli_fetch_object($resultProductType);
         $product_type_name = $objProductType->product_type_name;
     }
@@ -64,7 +64,7 @@ if ($id > 0 && $id != '') {
                             <h2><?php echo $product_type_name; ?></h2>
                             <span class="center-line"></span>
                         </div>
-                        
+
                         <?php if (count($arrayProduct) > 0): ?>
                             <?php foreach ($arrayProduct AS $product): ?>
                                 <div class="col-md-3 productDiv">
@@ -77,26 +77,15 @@ if ($id > 0 && $id != '') {
                                         </div>
                                     </div>
                                     <div class="work-desc">
-                                        <h5><a href="#" data-toggle="modal" data-target="#myModal<?php echo $product->product_id; ?>"><?php echo $product->product_title; ?></a></h5>
+                                        <h5><a href="#"><?php echo $product->product_title; ?></a></h5>
                                     </div>
                                 </div> 
-                                <div class="modal fade" id="myModal<?php echo $product->product_id; ?>" role="dialog">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header" style="border-bottom: 1px solid white;">
-                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                <h4 class="modal-title" style="color: #10218B;"><?php echo $product->product_title; ?></h4>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <img style="margin-top: 10px;" src="<?php echo baseUrl(); ?>upload/product_image/<?php echo $product->product_image; ?>"class="img-responsive" alt="<?php echo $product->product_title; ?>">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p><?php echo html_entity_decode($product->product_details, ENT_QUOTES | ENT_IGNORE, "UTF-8"); ?></p>
-                                            </div>
-                                            <div class="modal-footer"></div>
-                                        </div>
-                                    </div>
+                                <div class="col-md-9">
+                                    <h4 style="margin-top: 10px;"><?php echo $product->product_title; ?></h4>
+                                    <p style="text-align: justify;"><?php echo html_entity_decode($product->product_details); ?></p>
                                 </div>
+                                <div class="clearfix"></div>
+
                             <?php endforeach; ?>
                         <?php else: ?>
                             <h3 style="text-align: center;">No products found in record</h3>
