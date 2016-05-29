@@ -56,7 +56,7 @@ if ($id > 0 && $id != '') {
                     </div>
                 </div>
             </div>
-            <div class="container" style="min-height: 400px;">
+            <div class="container">
                 <div class="divide20"></div>
                 <div class="row">
                     <div class="col-md-12">
@@ -64,37 +64,38 @@ if ($id > 0 && $id != '') {
                             <h2><?php echo $product_type_name; ?></h2>
                             <span class="center-line"></span>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="min-height: 400px;">
+                <div class="row">
 
-                        <?php if (count($arrayProduct) > 0): ?>
-                            <?php foreach ($arrayProduct AS $product): ?>
-                                <div class="col-md-3 productDiv">
-                                    <div class="item-img-wrap ">
+                    <?php if (count($arrayProduct) > 0): ?>
+                        <?php foreach ($arrayProduct AS $product): ?>
+                            <div class="col-md-12" style="border: 1px solid #10218B;box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 3px 1px 0 #C9C7C7;">
+                                <div class="col-md-3 productDiv" style="">
+                                    <div class="item-img-wrap" style="margin-top: 10px;background-color: #F1F0F0;">
                                         <img src="<?php echo baseUrl(); ?>upload/product_image/<?php echo $product->product_image; ?>"class="img-responsive" alt="<?php echo $product->product_title; ?>">
-                                        <div class="item-img-overlay">
-                                            <a href="#" data-toggle="modal" data-target="#myModal<?php echo $product->product_id; ?>">
-                                                <span></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="work-desc">
-                                        <h5><a href="#"><?php echo $product->product_title; ?></a></h5>
+                                        
                                     </div>
                                 </div> 
-                                <div class="col-md-9">
+                                <div class="col-md-9" style="">
                                     <h4 style="margin-top: 10px;"><?php echo $product->product_title; ?></h4>
                                     <p style="text-align: justify;"><?php echo html_entity_decode($product->product_details); ?></p>
                                 </div>
                                 <div class="clearfix"></div>
+                            </div>
+                        <?php endforeach; ?>
+                    <?php else: ?>
+                        <h3 style="text-align: center;">No products found in record</h3>
+                    <?php endif; ?>     
 
-                            <?php endforeach; ?>
-                        <?php else: ?>
-                            <h3 style="text-align: center;">No products found in record</h3>
-                        <?php endif; ?>                
-                    </div>                      
-                </div>               
-            </div>               
+                </div>
+            </div>
+
             <?php include basePath('footer.php'); ?>
-        </div>
+        </div>       
+
         <?php include basePath('footer_script.php'); ?>
         <script>
             $(document).ready(function () {
