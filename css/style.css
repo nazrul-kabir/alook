@@ -4,16 +4,11 @@ body {
     -ms-text-size-adjust: 100%;
     color: #424242;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     background-color: #fff;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
-
-/*
-/*-----------------------------------------------------------------------------------*/
-/*	RESET
-/*-----------------------------------------------------------------------------------*/
 *,
 *:before,
 *:after {
@@ -44,7 +39,7 @@ iframe {
 }
 
 strong, b {
-    font-family: "Open Sans";
+   font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
@@ -52,7 +47,7 @@ input,
 button,
 select,
 textarea, label {
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -99,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #060606;
     font-weight: 700;
     margin: 0;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -135,7 +130,7 @@ h3.heading {
     text-transform: capitalize;
     overflow: hidden;
     vertical-align: middle;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3.heading:after {
@@ -540,7 +535,7 @@ pre:after, pre:before {
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.5px;
 }
 
@@ -1103,8 +1098,8 @@ TOP BARS
 
 .footer-col p {
     color: #443D3D;
-    font-size: 16px;
-    font-family: "Open Sans";
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact p {
@@ -1266,7 +1261,7 @@ TOP BARS
     padding: 4px 0;
     color: #443D3D;
     font-size: 16px;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
 
 .latest-f-news li a i {
@@ -2834,7 +2829,7 @@ ul.post-desc li + li {
     font-size: 20px;
     line-height: 36px;
     font-style: normal;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
 
 .testimonials h4 i {
@@ -2909,7 +2904,7 @@ ul.post-desc li + li {
 .testi-slide h4 {
     font-weight: 400;
     font-size: 16px;
-    font-family: "Poppins",sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-style: italic;
 }
 
@@ -3121,7 +3116,7 @@ ul.post-desc li + li {
     color: #fff;
     font-size: 25px;
     font-weight: 400;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
 
 /****fun facts*****/
@@ -3152,7 +3147,7 @@ ul.post-desc li + li {
 .facts-in h4 {
     margin-bottom: 0px;
     color: #fff;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -3249,7 +3244,7 @@ ul.post-desc li + li {
     letter-spacing: 8px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
 
 ol.breadcrumb {
@@ -3272,7 +3267,7 @@ ol.breadcrumb li a {
 
 /***list of highlight**/
 .highlight-list li {
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #777;
     line-height: 45px;
@@ -3904,7 +3899,7 @@ label span {
     -moz-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
     -ms-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
     box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
-    font-family: "Open Sans";
+   font-family: 'Montserrat', sans-serif;
 }
 
 .panel-group .panel-heading a {
@@ -4233,7 +4228,7 @@ label span {
     line-height: 30px;
     margin-bottom: 30px;
     margin-top: 25px;
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 433px) {
@@ -4953,7 +4948,7 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .intro-text-default h4 {
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 30px;
@@ -5027,7 +5022,7 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .testimonials-light h4 {
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #000;
     font-style: normal;
@@ -5213,7 +5208,7 @@ MULTI LEVEL DROPDOWN CSS
 
 .fun-fact-wrap-light .facts-in h4 {
     color: #000;
-    font-family: "Open Sans";
+   font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: lowercase;
     font-style: normal;
@@ -5627,7 +5622,7 @@ MULTI LEVEL DROPDOWN CSS
 
 /****cube portfolio*******/
 .cube-masonry .cbp-l-filters-alignCenter .cbp-filter-item {
-    font-family: "Poppins",sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 15px;
 }
 
@@ -5667,12 +5662,12 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .portfolio-cube .cbp-l-grid-projects-title {
-    font-family: "Open Sans";
+   font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
 .portfolio-cube .cbp-l-filters-button .cbp-filter-item {
-    font-family: "Open Sans";
+   font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -5684,16 +5679,16 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .portfolio-cube {
-    font-family: "Poppins",sans-serif !important;
+   font-family: 'Montserrat', sans-serif !important;
 }
 
 .cube-masonry .cbp-l-caption-title {
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
 .cube-masonry .cbp-l-caption-desc {
-    font-family: "Open Sans";
+    font-family: 'Montserrat', sans-serif;
 }
 
 /************pace style for page pre-loader********/
@@ -6279,7 +6274,7 @@ body.coming-soon-full {
 
 /*********revolution slider 5 css*****/
 .tp-caption.NotGeneric-Title, rev-btn, .NotGeneric-Title, .tp-caption.NotGeneric-SubTitle, .NotGeneric-SubTitle, .tp-caption.Gym-Display, .Gym-Display, .tp-caption.Gym-Subline, .Gym-Subline, .tp-caption.Gym-SmallText, .Gym-SmallText, .tp-caption.Gym-Button, .Gym-Button, .rev-btn {
-    font-family: "Poppins",sans-serif !important;
+   font-family: 'Montserrat', sans-serif !important;
     font-weight: 400 !important;
 }
 

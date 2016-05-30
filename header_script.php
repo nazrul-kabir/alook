@@ -1,5 +1,6 @@
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">   
+<link href="css/font_style.css" rel="stylesheet" type="text/css" media="screen">   
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
 <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css/animate.css" rel="stylesheet" type="text/css" media="screen">
