@@ -8,7 +8,7 @@ if ($result) {
     }
 }
 ?>
-<div class="container" style="height: 110px;" >
+<div class="container" id="newheader">
     <div class="col-md-12" style="padding-right: 0px;">
         <div class="col-md-3" style="width: 13.5%;margin-left: -60px;padding-top: 8px;">
             <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="ALOOL REFRIJEGERATION COMPANY LIMITED" style="margin-top: -36px;"></a>

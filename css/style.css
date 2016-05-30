@@ -3690,7 +3690,7 @@ label span {
 }
 
 .popular-desc h5 a:hover {
-    color: #10218B;
+    color: #10218B; 
 }
 
 .popular-desc h6 {
@@ -6349,6 +6349,9 @@ body.coming-soon-full {
     font-size: 12px;
     font-weight: 400;
 }
+@media screen and (max-width:768px) {
+
+}
 /* ============================================== */
 /* iPhone4/Android portrait               320x480 */
 /* iPhone5 portrait                       320x568 */
@@ -6359,7 +6362,11 @@ body.coming-soon-full {
         height: auto;
         margin-top: -34px;
     }
+    #newheader{
+        height: 110px;
+    }
 }
+
 /* ============================================== */
 /* Smaller devices                                */
 /* Android Landscape                      320x240 */
@@ -6369,6 +6376,9 @@ body.coming-soon-full {
         width: 70px;
         height: auto;
         margin-top: -34px;
+    }
+    #newheader{
+        height: 10px;
     }
 }
 
@@ -6382,6 +6392,9 @@ body.coming-soon-full {
         height: auto;
         margin-top: -34px;
     }
+    #newheader{
+        height: 10px;
+    }
 }
 /* ============================================== */
 /* iPhone4/Android landscape (& narrow browser)   */
@@ -6393,6 +6406,15 @@ body.coming-soon-full {
         height: auto;
         margin-top: -34px;
     }
+    #newheader{
+        height: 10px;
+    }
+}
+/*CUSTOM CSS-ZIAN*/
+@media (min-width: 1200px){
+    #newheader{
+        height: 110px;
+    }  
 }
 
 /*INDUSTRIAL PRODUCT PAGE DESIGN*/
