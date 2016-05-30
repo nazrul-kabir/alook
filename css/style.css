@@ -39,7 +39,7 @@ iframe {
 }
 
 strong, b {
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
@@ -421,9 +421,9 @@ pre:after, pre:before {
 }
 
 .btn-theme-bg {
-    border-color: #10218B;
+    border-color: #367DAB;
     color: #fff;
-    background-color: #10218B;
+    background-color: #367DAB;
 }
 
 .btn i {
@@ -536,11 +536,11 @@ pre:after, pre:before {
     font-weight: 400;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #10218B;
+    /*color: #10218B;*/
     /*background-color: #34383A;*/
     /*padding-bottom: 5px;*/
 }
@@ -605,7 +605,7 @@ pre:after, pre:before {
     font-size: 14px;
     font-weight: 400;
     border-bottom: 1px solid #f5f5f5;
-    padding: 6px 16px;
+    padding: 8px 16px;
     line-height: 1.42857143;
     text-transform: capitalize;
 }
@@ -615,7 +615,7 @@ pre:after, pre:before {
 }
 
 .navbar .dropdown-menu li a:hover {
-    background-color: #f5f5f5;
+    background-color: #eee;
 }
 
 /*********************
@@ -658,7 +658,7 @@ TOP BARS
 
 .top-dark-right li {
     line-height: 40px;
-    border-left: 1px solid #444;
+    /*border-left: 1px solid #444;*/
     padding: 0px 10px;
 }
 
@@ -1972,8 +1972,8 @@ h1.typed-text {
 }
 /*services*/
 .services-wrap {
-    padding-top: 60px;
-    padding-bottom: 40px;
+/*    padding-top: 60px;
+    padding-bottom: 40px;*/
     background-color: #fff;
 }
 
@@ -2317,7 +2317,7 @@ h1.typed-text {
     border-top: none;
     position: relative;
     height: 80px;
-    border-bottom: 5px solid #10218B;
+    /*border-bottom: 5px solid #10218B;*/
 }
 
 .work-desc:before {
@@ -3899,7 +3899,7 @@ label span {
     -moz-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
     -ms-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
     box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .panel-group .panel-heading a {
@@ -5208,7 +5208,7 @@ MULTI LEVEL DROPDOWN CSS
 
 .fun-fact-wrap-light .facts-in h4 {
     color: #000;
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: lowercase;
     font-style: normal;
@@ -5662,12 +5662,12 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .portfolio-cube .cbp-l-grid-projects-title {
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
 .portfolio-cube .cbp-l-filters-button .cbp-filter-item {
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -5679,7 +5679,7 @@ MULTI LEVEL DROPDOWN CSS
 }
 
 .portfolio-cube {
-   font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .cube-masonry .cbp-l-caption-title {
@@ -6274,7 +6274,7 @@ body.coming-soon-full {
 
 /*********revolution slider 5 css*****/
 .tp-caption.NotGeneric-Title, rev-btn, .NotGeneric-Title, .tp-caption.NotGeneric-SubTitle, .NotGeneric-SubTitle, .tp-caption.Gym-Display, .Gym-Display, .tp-caption.Gym-Subline, .Gym-Subline, .tp-caption.Gym-SmallText, .Gym-SmallText, .tp-caption.Gym-Button, .Gym-Button, .rev-btn {
-   font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-weight: 400 !important;
 }
 

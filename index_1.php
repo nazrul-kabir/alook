@@ -22,47 +22,49 @@ if ($resultProduct) {
     </head>
     <body id="boxed">
         <div class="boxed-wrapper">
-            <?php include basePath('header_demo.php'); ?>            
+            <?php include basePath('header.php'); ?>            
             <!-- Slider Start -->
             <?php include './banner.php'; ?>
             <!-- Slider End -->
             <section class="services-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6" style="background-color: #367DAB;height:289px; padding: 10px;padding-right: 5px;">
+                        <div class="col-md-6" style="background-color: #10218B;height:289px; box-shadow: 0 0px 0px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;padding-right: 5px;">
                             <div class="center-heading">
-                                <h2 style="color: white;letter-spacing: 1px;font-size: 25px;margin-top: 25px;margin-left: -10px;">About Company</h2>
+                                <h2 style="color: white;letter-spacing: 1px;font-size: 25px;">About Company</h2>
+                                <span class="center-line"></span>
                             </div>
-                            <p style="text-align: justify;color: white;padding-left: 80px;padding-right: 80px;margin-top: -31px;">
+                            <p style="text-align: justify;color: #CCC;">
                                 Alook Refrigeration Company Limited has been continuing to serve its clients for 
                                 the last thirty years and that neither the clients nor Alook Refrigeration have developed any fatigue for each other.
                                 Rather, as we observe, bondage is getting stronger and stronger. What was a small proprietorship firm thirty years 
                                 back is now a noticeable actor in the field of Air-conditioning.
                             </p>
                         </div>                   
-                        <div class="col-md-6" style="background-color: #367DAB;height:289px; padding: 10px;padding-left: 5px;">
+                        <div class="col-md-6" style="background-color: #10218B;height:289px; box-shadow: 0 0px 0px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;padding-left: 5px;">
                             <div class="center-heading">
-                                 <h2 style="color: white;letter-spacing: 1px;font-size: 25px;margin-top: 25px;margin-left: -10px;">Why US?</h2>
+                                 <h2 style="color: white;letter-spacing: 1px;font-size: 25px;">Why US?</h2>
+                                <span class="center-line"></span>
                             </div>   
                             <div class="col-md-2 hidden-xs hidden-sm"></div>
-                            <div class="col-md-8" style="margin-top: -31px;">
+                            <div class="col-md-8">
                                 <ul>
-                                    <li style="list-style: none;color: white;">
+                                    <li style="list-style: none;color: #CCC;">
                                         <i class="fa fa-check" style=""></i>&nbsp;&nbsp;Outstanding Customer Satisfaction
                                     </li>
-                                    <li style="list-style: none;color: white;">
+                                    <li style="list-style: none;color: #CCC;">
                                         <i class="fa fa-check"></i>&nbsp;&nbsp;High Quality Product & Service
                                     </li>
-                                    <li style="list-style: none;color: white;">
+                                    <li style="list-style: none;color: #CCC;">
                                         <i class="fa fa-check"></i>&nbsp;&nbsp;Quality Project Delivery
                                     </li>
-                                    <li style="list-style: none;color: white;">
+                                    <li style="list-style: none;color: #CCC;">
                                         <i class="fa fa-check"></i>&nbsp;&nbsp;Excellent Price Quality Ratio
                                     </li>
-                                    <li style="list-style: none;color: white;">
+                                    <li style="list-style: none;color: #CCC;">
                                         <i class="fa fa-check"></i>&nbsp;&nbsp;Quick Supply - Respect Deadline
                                     </li>
-                                    <li style="list-style: none;color: white;">
+                                    <li style="list-style: none;color: #CCC;">
                                         <i class="fa fa-check"></i>&nbsp;&nbsp;Efficient After Sales Service & Repair
                                     </li>
                                 </ul> 
@@ -99,7 +101,8 @@ if ($resultProduct) {
                 <section class="portfolio">
                     <div class="container">
                         <div class="row">
-                            <h2 style="text-align: center;padding: 5px;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Products</h2>                                              
+                            <div class="divide2"></div>
+                            <h2 style="text-align: center;padding: 5px;box-shadow: 0px 7px 5px #888888;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #10218B; background-color: #10218B"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Products</h2>                                              
                         </div>
                         <div class="row">
                             <div class="col-md-12">                              

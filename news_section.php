@@ -1,5 +1,5 @@
 <div class="container-fluid" style="padding: 0px;">
-    <h2 style="text-align: center;padding: 5px;box-shadow: 0px 7px 5px #888888;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #10218B; background-color: #10218B"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;News & Events</h2>                                              
+    <h2 style="text-align: center;padding: 5px;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;News & Events</h2>                                              
 
 </div>
 <div class="center-heading col-md-12 margin40">
