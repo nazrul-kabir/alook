@@ -37,7 +37,7 @@ include './config/config.php';
                             <span class="center-line"></span>
                         </div>
                         <div>
-                            <img src="<?php echo baseUrl(); ?>upload/ORGANOGRAM.png" class="img-responsive" alt="working">
+                            <img src="<?php echo baseUrl(); ?>upload/Untitled-2.jpg" class="img-responsive" alt="working">
                             <div class="item-img-overlay">
                                 <span></span>
                             </div>

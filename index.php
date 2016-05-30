@@ -29,7 +29,7 @@ if ($resultProduct) {
             <section class="services-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6" style="background-color: #10218B;height:289px; box-shadow: 0 0px 0px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;padding-right: 5px;">
+                        <div class="col-md-6" style="background-color: #10218B;height:289px; box-shadow:  0px 03px 05px rgb(62, 60, 60); border: 1px solid #969595; padding: 10px;padding-right: 5px;">
                             <div class="center-heading">
                                 <h2 style="color: white;letter-spacing: 1px;font-size: 25px;">About Company</h2>
                                 <span class="center-line"></span>
@@ -41,7 +41,7 @@ if ($resultProduct) {
                                 back is now a noticeable actor in the field of Air-conditioning.
                             </p>
                         </div>                   
-                        <div class="col-md-6" style="background-color: #10218B;height:289px; box-shadow: 0 0px 0px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;padding-left: 5px;">
+                        <div class="col-md-6" style="background-color: #10218B;height:289px; box-shadow:  0px 03px 05px rgb(62, 60, 60); border: 1px solid #969595; padding: 10px;padding-left: 5px;">
                             <div class="center-heading">
                                  <h2 style="color: white;letter-spacing: 1px;font-size: 25px;">Why US?</h2>
                                 <span class="center-line"></span>
