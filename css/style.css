@@ -1972,8 +1972,8 @@ h1.typed-text {
 }
 /*services*/
 .services-wrap {
-/*    padding-top: 60px;
-    padding-bottom: 40px;*/
+    /*    padding-top: 60px;
+        padding-bottom: 40px;*/
     background-color: #fff;
 }
 
@@ -2611,7 +2611,9 @@ ul.post-desc li + li {
 .timeline > li:after {
     clear: both;
 }
-
+.timeline-body > p{
+    color: white;
+}
 .timeline > li > .timeline-panel {
     width: 94%;
     float: left;
@@ -2619,6 +2621,7 @@ ul.post-desc li + li {
     /*border-radius: 2px;*/
     /*padding: 20px;*/
     position: relative;
+    background-color: #367DAB;
 }
 
 .timeline > li > .timeline-panel:before {
@@ -2627,8 +2630,8 @@ ul.post-desc li + li {
     right: -15px;
     display: inline-block;
     border-top: 15px solid transparent;
-    border-left: 15px solid #ccc;
-    border-right: 0 solid #ccc;
+    border-left: 15px solid #367DAB;
+    border-right: 0 solid #367DAB;
     border-bottom: 15px solid transparent;
     content: " ";
 }
@@ -2639,8 +2642,8 @@ ul.post-desc li + li {
     right: -14px;
     display: inline-block;
     border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
+    border-left: 14px solid #367DAB;
+    border-right: 0 solid #367DAB;
     border-bottom: 14px solid transparent;
     content: " ";
 }
@@ -2665,6 +2668,7 @@ ul.post-desc li + li {
 
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
+    background-color: #367DAB;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:before {
@@ -2770,6 +2774,7 @@ ul.post-desc li + li {
 
     ul.timeline > li > .timeline-panel {
         float: right;
+        background-color: #367DAB;
     }
 
     ul.timeline > li > .timeline-panel:before {
@@ -3170,6 +3175,7 @@ ul.post-desc li + li {
     -ms-border-radius: 20px;
     border-radius: 20px;
     background: #10218B !important;
+    background:#367DAB;
 }
 
 /**********static background with transparent header*/
@@ -3234,6 +3240,7 @@ ul.post-desc li + li {
     background-color: #f6f6f6;
     border-top: 1px solid #d2d3d4;
     border-bottom: 1px solid #d2d3d4;
+    margin-top: 70px;
 }
 
 .breadcrumb-wrap h4 {

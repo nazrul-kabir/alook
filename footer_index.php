@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3" style="">
-                <div class="footer-col" style="background-color: #367DAB;height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;">
+                <div class="footer-col" style="background-color: #367DAB;height:289px;  padding: 10px;">
                     <h3 style="text-align: center;letter-spacing: 2px;color:white;">About Alook</h3>
                     <p style="text-align: justify; color:white;">
                         We feel blessed that Alook Refrigeration Company Limited has been continuing
@@ -12,7 +12,7 @@
                 </div>                        
             </div><!--footer col-->
             <div class="col-md-3">
-                <div class="footer-col" style="background-color: #367DAB;height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;">
+                <div class="footer-col" style="background-color: #367DAB;height:289px;  padding: 10px;">
                     <h3 style="color:white;text-align: center;letter-spacing: 2px;">Contact</h3>
                     <ul class="list-unstyled contact" style="color:white;">
                         <li><p style="color: white;"><strong><i class="fa fa-map-marker"></i> Address:</strong> Alook Tower (3rd Floor), 47/1 Shahid Tajuddin Ahmed Sarani, Mohakhali, Dhaka-1212</p></li> 
@@ -23,7 +23,7 @@
                 </div>                        
             </div>
             <div class="col-md-3">
-                <div class="footer-col" style="background-color: #367DAB;height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;">
+                <div class="footer-col" style="background-color: #367DAB;height:289px; padding: 10px;">
                     <h3 style="color:white;text-align: center;letter-spacing: 2px;">Quick Links</h3> 
                     <ul class="list-unstyled latest-f-news">
                         <li ><a href="javascript:void(0);" style="color: white;"><i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;&nbsp;Products</a></li>
@@ -36,7 +36,7 @@
                 </div>                        
             </div>
             <div class="col-md-3">
-                <div class="footer-col" style="background-color: #367DAB;height:289px; box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 5px 25px 0 rgb(115, 110, 110); border: 1px solid #969595; padding: 10px;">
+                <div class="footer-col" style="background-color: #367DAB;height:289px;  padding: 10px;">
                     <h3 style="color:white;text-align: center;letter-spacing: 2px;">Newsletter</h3>
                     <p style="color: white;">
                         Subscribe To Get Our Update

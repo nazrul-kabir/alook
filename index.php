@@ -33,10 +33,10 @@ if ($resultProduct) {
                             <div class="center-heading">
                                 <h2 style="color: white;letter-spacing: 1px;font-size: 25px;margin-top: 25px;margin-left: -10px;">About Company</h2>
                             </div>
-                            <p style="text-align: justify;color: white;padding-left: 80px;padding-right: 80px;margin-top: -31px;">
+                            <p style="text-align: justify;color: white;padding-left: 75px;padding-right: 75px;margin-top: -31px;">
                                 Alook Refrigeration Company Limited has been continuing to serve its clients for 
-                                the last thirty years and that neither the clients nor Alook Refrigeration have developed any fatigue for each other.
-                                Rather, as we observe, bondage is getting stronger and stronger. What was a small proprietorship firm thirty years 
+                                the last forty five years and that neither the clients nor Alook Refrigeration have developed any fatigue for each other.
+                                Rather, as we observe, bondage is getting stronger and stronger. What was a small proprietorship firm forty five years 
                                 back is now a noticeable actor in the field of Air-conditioning.
                             </p>
                         </div>                   
