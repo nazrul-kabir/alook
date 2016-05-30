@@ -22,7 +22,7 @@ if ($resultProduct) {
     </head>
     <body id="boxed">
         <div class="boxed-wrapper">
-            <?php include basePath('header_demo.php'); ?>            
+            <?php include basePath('header.php'); ?>            
             <!-- Slider Start -->
             <?php include './banner.php'; ?>
             <!-- Slider End -->
@@ -122,20 +122,11 @@ if ($resultProduct) {
                                 </div>
                             </div>
                         </div>
-                        <!--                        
-                        <div class="divide30"></div>
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <a href="javascript:void(0);" class="btn border-theme btn-lg wow animated fadeInUp"><i class="fa fa-bars"></i> Load More Products</a>
-                                </div>
-                            </div>
-                        -->
                     </div>
                 </section>
             <?php endif; ?>
             <?php include basePath('news_section.php'); ?>                   
             <?php include basePath('clients_section.php'); ?>
-            <?php // include basePath('news_letter.php') ?>
             <?php include basePath('footer_index.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>

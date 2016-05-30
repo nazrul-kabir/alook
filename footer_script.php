@@ -19,7 +19,7 @@
 <script type="text/javascript">
     $(window).load(function () {
         $("#clientslider").flexisel({
-            visibleItems: 5,
+            visibleItems: 6,
             animationSpeed: 1000,
             autoPlay: true,
             autoPlaySpeed: 3000,

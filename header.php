@@ -1,13 +1,3 @@
-<?php
-$array = array();
-$sql = "SELECT * FROM product_type WHERE product_type_status='Active'";
-$result = mysqli_query($con, $sql);
-if ($result) {
-    while ($obj = mysqli_fetch_object($result)) {
-        $array[] = $obj;
-    }
-}
-?>
 <div class="container" id="newheader">
     <div class="col-md-12" style="padding-right: 0px;">
         <div class="col-md-3" style="width: 13.5%;margin-left: -60px;padding-top: 8px;">
@@ -96,17 +86,9 @@ if ($result) {
 
                             <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=1">DOMESTIC</a></li>
                             <li><a tabindex="-1" href="<?php echo baseUrl(); ?>industrial_products.php">INDUSTRIAL</a></li>
-
                             <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=3">LOCAL PRODUCTS</a></li>
                         </ul>
-                        <!--                    <ul class="dropdown-menu multi-level" role="menu">
-                        <?php if (count($array) > 0): ?>
-                            <?php foreach ($array AS $productType): ?>
-                                                        <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=<?php echo $productType->product_type_id; ?>"><?php echo $productType->product_type_name; ?></a></li>
-                            <?php endforeach; ?>
-                        <?php endif; ?> 
-                                                 <li><a tabindex="-1" href="<?php echo baseUrl(); ?>test.php">dcff</a></li>
-                                            </ul>                   -->
+
                     </li>
                     <li class="dropdown ">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" style="color: white;"><i class="fa fa-briefcase"></i>&nbsp;&nbsp;PROJECTS <i class="fa fa-angle-down"></i></a>

@@ -3,8 +3,6 @@
 
 </div>
 <div class="center-heading col-md-12 margin40">
-    <!--<h2 class="">News & Events</h2>-->
-    <!--<span class="center-line"></span>-->
     <div id="news-carousel" class="owl-carousel owl-spaced">
         <div>
             <a href="#">
@@ -16,7 +14,7 @@
                 </div>                       
             </a>
             <div class="news-desc">
-                <h4><a href="news_details.php">News Title-1</a></h4>
+                <h5 style="text-align: left;"><a href="news_details.php">News Title-1</a></h5>
             </div>
         </div> 
         <div>
@@ -29,7 +27,7 @@
                 </div>                       
             </a>
             <div class="news-desc">
-                <h4><a href="#">News Title-1</a></h4>
+                <h5 style="text-align: left;"><a href="news_details.php">News Title-2</a></h5>
             </div>
         </div> 
         <div>
@@ -42,7 +40,7 @@
                 </div>                       
             </a>
             <div class="news-desc">
-                <h4><a href="#">News Title-1</a></h4>
+                <h5 style="text-align: left;"><a href="news_details.php">News Title-3</a></h5>
             </div>
         </div> 
         <div>
@@ -55,7 +53,7 @@
                 </div>                       
             </a>
             <div class="news-desc">
-                <h4><a href="#">News Title-1</a></h4>
+                <h5 style="text-align: left;"><a href="news_details.php">News Title-4</a></h5>
             </div>
         </div> 
     </div>
