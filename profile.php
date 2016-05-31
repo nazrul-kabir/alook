@@ -65,7 +65,7 @@ include './config/config.php';
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapsethree">
-                                         <i class="fa fa-cogs" style="color: black"></i> GOALS</a>
+                                        <i class="fa fa-cogs" style="color: black"></i> GOALS</a>
                                 </h4>
                             </div>
                             <div id="collapsethree" class="panel-collapse collapse ">
@@ -90,11 +90,14 @@ include './config/config.php';
                             </div>
                         </div><!--panel end-->
                     </div>                    
-                </div>                
+                </div> 
+            </div>
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ALOOK'S PROFILE</h2>
+            </div>
+            <div class="container">
                 <div class="col-md-12">
                     <div class="center-heading">
-                        <h2>ALOOK'S PROFILE</h2>
-                        <span class="center-line"></span>
                     </div>
                     <p style="text-align: justify;">Self-taught Engineer and Entrepreneur Mr. Abdul Khaleque, first opened his 
                         Air-conditioning, Electrical &amp; Refrigeration service center under the banner 

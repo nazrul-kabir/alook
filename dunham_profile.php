@@ -28,13 +28,12 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">DUNHAM-BUSH PROFILE</h2>
+            </div>
             <div class="container">
                 <div class="divide20"></div>
-                <div class="col-md-12">
-                    <div class="center-heading">
-                        <h2>DUNHAM-BUSH PROFILE</h2>
-                        <span class="center-line"></span>
-                    </div>
+                <div class="col-md-12">                    
                     <p style="text-align: justify;">
                         Dunham-Bush, one of the world' s top commercial air conditioning manufactures, 
                         has long been committed to offering creative solutions for the customer's 

@@ -28,14 +28,13 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ORGANOGRAM</h2>
+            </div>
             <div class="container">
                 <div class="divide20"></div>
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="center-heading">
-                            <h2>ORGANOGRAM</h2>
-                            <span class="center-line"></span>
-                        </div>
+                    <div class="col-md-12">                        
                         <div>
                             <img src="<?php echo baseUrl(); ?>upload/Untitled-2.jpg" class="img-responsive" alt="working">
                             <div class="item-img-overlay">
