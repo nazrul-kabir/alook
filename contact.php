@@ -72,7 +72,8 @@ if (isset($_POST['contact_name'])) {
                             <div class="col-md-4 margin30">
                                 <div class="contact-option-circle">
                                     <i class="fa fa-home"></i>
-                                    <p>Alook Tower (3rd Floor), 47/1 Shahid Tajuddin Ahmed Sarani, Mohakhali,Dhaka-1212</p>
+                                    <p>Alook Tower (3rd Floor), 47/1 Shahid Tajuddin</p>
+                                    <p> Ahmed Sarani, Mohakhali,Dhaka-1212</p>
                                 </div>
                             </div>
                             <div class="col-md-4 margin30">
