@@ -44,7 +44,7 @@ if ($id > 0 && $id != '') {
             <div class="breadcrumb-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 hidden-xs" >
                             <h4><?php echo $product_type_name; ?></h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">

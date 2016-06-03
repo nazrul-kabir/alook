@@ -16,7 +16,7 @@ include './config/config.php';
             <div class="breadcrumb-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 hidden-xs">
                             <h4>ALOOK'S PROFILE</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
@@ -28,71 +28,58 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="divide20"></div>
-                <div class="col-md-12">
-                    <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                        <i class="fa fa-desktop" style="color: black"></i> VISION
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    To make the environment more human friendly & user acceptable at an optimum cost.
-                                </div>
-                            </div>
-                        </div><!--panel end-->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsetwo">
-
-                                        <i class="fa fa-crop" style="color: black"></i> MISSION
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapsetwo" class="panel-collapse collapse ">
-                                <div class="panel-body">
-                                    To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh.
-                                </div>
-                            </div>
-                        </div><!--panel end-->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsethree">
-                                        <i class="fa fa-cogs" style="color: black"></i> GOALS</a>
-                                </h4>
-                            </div>
-                            <div id="collapsethree" class="panel-collapse collapse ">
-                                <div class="panel-body">
-                                    <p style="text-align: center;">Earning a revenue by making people comfortable by:</p>
-                                    <div class="col-md-12">
-                                        <div class="col-md-6">
-                                            <ul class="list-unstyled highlight-list">
-                                                <li style="line-height: 25px;"><i class="fa fa-check"></i> Supplying, Installing, Commissioning state-of-the art Heating, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ventilating, Air-conditioning & Refrigerating Equipment</li>
-                                                <li style="line-height: 25px;"><i class="fa fa-check"></i> Importing HVAC equipment</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul class="list-unstyled highlight-list">
-                                                <li style="line-height: 25px;"><i class="fa fa-check"></i> Manufacturing water heaters & accessories</li>
-                                                <li style="line-height: 25px;"><i class="fa fa-check"></i> Uninterrupted after-sales-service and maintenance to the clients</li>
-                                                <li style="line-height: 25px;"><i class="fa fa-check"></i> Continuous contribution to business development of the country</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--panel end-->
-                    </div>                    
-                </div> 
-            </div>
             <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ALOOK'S PROFILE</h2>
+            </div>
+            <div class="container" style="padding-left: 10px;padding-right: 10px;">
+                <div class="divide20"></div>
+                <div class="row">
+                    <div class="col-md-12 wow animated fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="col-md-6">
+                            <div class="contact-option-circle" style="background-color: #f3f3f3 ;">
+                                <div class="center-heading" >
+                                    <h2 style="color: #367DAB;">VISION</h2>
+                                </div>
+                                <p style="color: black;">To make the environment more human friendly & user acceptable at an optimum cost</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-option-circle" style="background-color: #f3f3f3;">
+                                <div class="center-heading" >
+                                    <h2 style="color: #367DAB;">MISSION</h2>
+                                </div>
+                                <p style="text-align: justify;color: black;">To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh</p>
+                            </div>                       
+                        </div>
+                    </div>               
+                </div>               
+            </div>  
+            <div class="divide20"></div>
+            <div class="container-fluid" style="padding-right: 25px; padding-left: 25px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">GOALS</h2>
+                <p style="text-align: center;">Earning a revenue by making people comfortable by:</p>
+            </div>
+            <div class="divide20"></div>
+            <div class="container">
+                <div class="col-md-12">
+                    
+                    <div class="col-md-6">
+                        <ul class="list-unstyled highlight-list">
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Supplying, Installing, Commissioning state-of-the art Heating,Ventilating, Air-conditioning & Refrigerating Equipment</li>
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Importing HVAC equipment</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled highlight-list">
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Manufacturing water heaters & accessories</li>
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Uninterrupted after-sales-service and maintenance to the clients</li>
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Continuous contribution to business development of the country</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="divide20"></div>
+            <div class="container" style="padding-right: 25px; padding-left: 25px;">
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ALOOK'S PROFILE</h2>
             </div>
             <div class="container">
@@ -112,11 +99,14 @@ include './config/config.php';
                         its own line products locally. Today ARCL is a pioneer in HVAC/R, providing 
                         world class one-stop solution in refrigeration. </p>
                 </div>
+            </div>
+            <div class="divide20"></div>
+            <div class="container-fluid" style="padding-right: 25px; padding-left: 25px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ALOOK'S MILESTONES</h2>
+            </div>
+            <div class="container">
                 <div class="col-md-12">
-                    <div class="center-heading">
-                        <h2>ALOOK'S MILESTONES</h2>
-                        <span class="center-line"></span>
-                    </div>
+
                     <ul class="timeline">
                         <li>
                             <div class="timeline-badge primary"><i class="fa fa-calendar"></i></div>
@@ -262,7 +252,6 @@ include './config/config.php';
                     </ul>
                 </div>
             </div>
-            
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>

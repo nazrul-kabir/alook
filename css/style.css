@@ -1150,8 +1150,8 @@ TOP BARS
     margin-top: 30px;
     padding: 10px;
     background-color: #F3F3F3;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    /*border-top-left-radius: 6px;*/
+    /*border-top-right-radius: 6px;*/
 }
 
 .news-form .form-control {

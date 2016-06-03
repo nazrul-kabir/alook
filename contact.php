@@ -69,26 +69,25 @@ if (isset($_POST['contact_name'])) {
 
                         </div>
                         <div class="row margin40">
-                            <div class="col-md-4 margin30">
-                                <div class="contact-option-circle">
-                                    <i class="fa fa-home"></i>
-                                    <p>Alook Tower (3rd Floor), 47/1 Shahid Tajuddin</p>
-                                    <p> Ahmed Sarani, Mohakhali,Dhaka-1212</p>
+                            <div class="col-md-4 margin30" >
+                                <div class="contact-option-circle" style="background-color: #367DAB;">
+                                    <i class="fa fa-home" style="color: white;"></i>
+                                    <p style="color: white;">Alook Tower (3rd Floor), 47/1 Shahid Tajuddin</p>
+                                    <p style="color: white;"> Ahmed Sarani, Mohakhali,Dhaka-1212</p>
                                 </div>
                             </div>
                             <div class="col-md-4 margin30">
-                                <div class="contact-option-circle">
-                                    <i class="fa fa-phone"></i>
-                                    <p>( +8802 ) 9830760</p>
-                                    <p>( +8802 ) 9830642</p>
+                                <div class="contact-option-circle" style="background-color: #367DAB;">
+                                    <i class="fa fa-phone" style="color: white;"></i>
+                                    <p style="color: white;">( +8802 ) 9830760</p>
+                                    <p style="color: white;">( +8802 ) 9830642</p>
                                 </div>
                             </div>
                             <div class="col-md-4 margin30">
-                                <div class="contact-option-circle">
-                                    <i class="fa fa-envelope"></i>
-                                    <p><a href="mailto:alookref@gmail.com">alookref@gmail.com</a>
-                                    <p><a href="mailto:alook@citechco.net">alook@citechco.net</a>
-                                    </p>
+                                <div class="contact-option-circle" style="background-color: #367DAB;">
+                                    <i class="fa fa-envelope" style="color: white;"></i>
+                                    <p><a href="mailto:alookref@gmail.com" style="color: white;">alookref@gmail.com</a>
+                                    <p><a href="mailto:alook@citechco.net" style="color: white;">alook@citechco.net</a></p>
                                 </div>
                             </div>
                         </div>

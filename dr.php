@@ -21,7 +21,7 @@ include './config/config.php';
             <div class="breadcrumb-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 hidden-xs">
                             <h4>MESSAGE FROM ED</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">

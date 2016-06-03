@@ -67,7 +67,7 @@ if ($resultHand) {
             <div class="breadcrumb-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 hidden-xs">
                             <h4>PROJECT IN HAND</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
@@ -79,6 +79,9 @@ if ($resultHand) {
                     </div>
                 </div>
             </div>
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">PROJECT IN HAND</h2>
+            </div>
             <div class="container">
                 <div class="divide20"></div>
                 <div class="row">
@@ -86,7 +89,7 @@ if ($resultHand) {
                         <?php if (count($arrayHand) > 0): ?>
                             <div id="no-more-tables">
                                 <table class="col-md-12 table-bordered table-striped table-condensed">
-                                    <thead class="" style="background-color: #333333;color: white">
+                                    <thead class="" style="background-color: #53565D;color: white">
                                         <tr>
                                             <th style="width: 10%;">Sl. No</th>
                                             <th style="width: 40%;">Name of the job / Project with location</th>

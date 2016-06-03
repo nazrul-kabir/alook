@@ -57,7 +57,7 @@
     </div> 
 </div>
 <div class="col-md-12" style="padding-left: 0px;padding-right: 0px;">
-    <div class="navbar navbar-default navbar-static-top yamm sticky" role="navigation" style="padding: 0px;background-color: #656870;">
+    <div class="navbar navbar-default navbar-static-top yamm sticky" role="navigation" style="padding: 0px;background-color: #367DAB;">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -69,7 +69,7 @@
             </div>
             <div class="navbar-collapse collapse" >
                 <ul class="nav navbar-nav ">
-                    <li style="background-color: #53565D; border: 7px solid #53565D;margin-left: -14px;border-left: 5px solid #53565D;"><a href="index.php"><i class="fa fa-home fa-2x" style="color: white;margin-top: -10px;"></i></a></li>
+                    <li style="background-color: #10218B; border: 7px solid #10218B;margin-left: -14px;border-left: 5px solid #10218B;"><a href="index.php"><i class="fa fa-home fa-2x" style="color: white;margin-top: -10px;"></i></a></li>
                     <li class="dropdown " style="color: white;">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" style="color: white;"><i class="fa fa-users"></i>&nbsp;&nbsp;ABOUT US <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu multi-level" role="menu">
@@ -84,8 +84,8 @@
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" style="color: white;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;PRODUCTS <i class="fa fa-angle-down"></i>&nbsp;&nbsp;</a>
                         <ul class="dropdown-menu multi-level" role="menu">
 
-                            <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=1">DOMESTIC</a></li>
-                            <li><a tabindex="-1" href="<?php echo baseUrl(); ?>industrial_products.php">INDUSTRIAL</a></li>
+                            <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=1">DOMESTIC PRODUCTS</a></li>
+                            <li><a tabindex="-1" href="<?php echo baseUrl(); ?>industrial_products.php">INDUSTRIAL PRODUCTS</a></li>
                             <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=3">LOCAL PRODUCTS</a></li>
                         </ul>
 

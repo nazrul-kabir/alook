@@ -1,5 +1,5 @@
 <footer id="footer">
-    <div class="container">
+    <div class="container" style="padding-left: 25px;padding-right: 25px;">
         <div class="row">
             <div class="col-md-4" style="">
                 <div class="footer-col" style="background-color: #367DAB;height:289px; padding: 10px;">
@@ -36,12 +36,11 @@
                 </div>                        
             </div>            
         </div>
-        <div class="row">
-            <div class="container-fluid text-center" style="padding-right: 0px; padding-left: 0px;">
-                <div class="footer-btm">
-                    <span style="color: #367DAB;">&copy; <?php echo date('Y'); ?> Alook Refrigeration Company Limited. Developed By- <a href="http://www.arkhairul.com" style="color: gray;">MK IT Geeks</a></span>
-                </div>
-            </div>
+
+    </div>
+    <div class="container-fluid text-center" style="padding-right: 0px; padding-left: 0px;">
+        <div class="footer-btm">
+            <span style="color: #367DAB;">&copy; <?php echo date('Y'); ?> Alook Refrigeration Company Limited. Developed By- <a href="http://www.arkhairul.com" style="color: gray;">MK IT Geeks</a></span>
         </div>
     </div>
 </footer>

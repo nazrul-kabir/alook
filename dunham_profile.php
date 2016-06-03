@@ -1,4 +1,4 @@
-<?php 
+<?php
 include './config/config.php';
 ?>
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ include './config/config.php';
             <div class="breadcrumb-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 hidden-xs">
                             <h4>DUNHAM-BUSH PROFILE</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
@@ -45,11 +45,15 @@ include './config/config.php';
                         our global network of sales and service offices, Dunham-Bush is offering our 
                         value-added products and solutions to all corners of the world. </p>
                 </div>
+            </div>
+            <div class="divide20"></div>
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">DUNHAM-BUSH MILESTONES</h2>
+            </div>
+            <div class="container">
+                <div class="divide20"></div>
                 <div class="col-md-12">
-                    <div class="center-heading">
-                        <h2>DUNHAM-BUSH MILESTONES</h2>
-                        <span class="center-line"></span>
-                    </div>
+
                     <ul class="timeline">
                         <li>
                             <div class="timeline-badge primary"><i class="fa fa-calendar"></i></div>
@@ -224,7 +228,7 @@ include './config/config.php';
                         <li class="clearfix" style="float: none;"></li>
                     </ul>
                 </div>
-            </div>                     
+            </div>
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>
