@@ -40,7 +40,7 @@ include './config/config.php';
                                 <div class="center-heading" >
                                     <h2 style="color: #367DAB;">VISION</h2>
                                 </div>
-                                <p style="color: black;">To make the environment more human friendly & user acceptable at an optimum cost</p>
+                                <p style="color: #848484;">To make the environment more human friendly & user acceptable at an optimum cost</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -48,7 +48,7 @@ include './config/config.php';
                                 <div class="center-heading" >
                                     <h2 style="color: #367DAB;">MISSION</h2>
                                 </div>
-                                <p style="text-align: justify;color: black;">To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh</p>
+                                <p style="text-align: justify;color: #848484;">To be leaders in the developing the art and science of HVAC/R within the urban society of Bangladesh</p>
                             </div>                       
                         </div>
                     </div>               
