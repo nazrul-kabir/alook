@@ -55,7 +55,7 @@ include './config/config.php';
                 </div>               
             </div>  
             <div class="divide20"></div>
-            <div class="container-fluid" style="padding-right: 25px; padding-left: 25px;">
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">GOALS</h2>
                 <p style="text-align: center;">Earning a revenue by making people comfortable by:</p>
             </div>
@@ -79,7 +79,7 @@ include './config/config.php';
                 </div>
             </div>
             <div class="divide20"></div>
-            <div class="container" style="padding-right: 25px; padding-left: 25px;">
+            <div class="container" style="padding-right: 0px; padding-left: 0px;">
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ALOOK'S PROFILE</h2>
             </div>
             <div class="container">
@@ -101,7 +101,7 @@ include './config/config.php';
                 </div>
             </div>
             <div class="divide20"></div>
-            <div class="container-fluid" style="padding-right: 25px; padding-left: 25px;">
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ALOOK'S MILESTONES</h2>
             </div>
             <div class="container">

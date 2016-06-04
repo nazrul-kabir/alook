@@ -60,7 +60,7 @@ if ($id > 0 && $id != '') {
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;"><?php echo $product_type_name; ?></h2>
             </div>                        
             <div class="container" style="min-height: 400px;">
-                <div class="row">
+                <div class="row" style="margin-left: 15px;margin-right: 15px;">
 
                     <?php if (count($arrayProduct) > 0): ?>
                         <?php foreach ($arrayProduct AS $product): ?>
