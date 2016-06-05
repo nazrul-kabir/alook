@@ -15,7 +15,7 @@ if ($resultClient) {
             <div class="row">
                 <div class="col-md-12">
                     <div class="center-heading">
-                        <p class="lead">
+                        <p class="lead" style="color: #10218B;font-size: 25px;">
                             Most business count their experience by years.
                             We measure by decades.
                         </p>

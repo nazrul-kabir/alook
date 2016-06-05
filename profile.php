@@ -16,7 +16,7 @@ include './config/config.php';
             <div class="breadcrumb-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 hidden-xs">
+                        <div class="col-sm-6">
                             <h4>ALOOK'S PROFILE</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
@@ -28,9 +28,9 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+<!--            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ALOOK'S PROFILE</h2>
-            </div>
+            </div>-->
             <div class="container" style="padding-left: 10px;padding-right: 10px;">
                 <div class="divide20"></div>
                 <div class="row">
