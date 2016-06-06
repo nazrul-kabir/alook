@@ -56,66 +56,56 @@ if (isset($_POST['product_title'])) {
     $product_category_id = validateInput($product_category_id);
     $product_status = validateInput($product_status);
 
-    // check product priority and exist
-    $sql_check = "SELECT * FROM product WHERE product_title='$product_title' AND product_id NOT IN (" . $product_id . ")";
-    $result_check = mysqli_query($con, $sql_check);
-    $count = mysqli_num_rows($result_check);
-    if ($count > 0) {
-        $error = "Product already exists in record";
-    } else {
-
-
-        // Image upload code start
-        if ($_FILES['product_image']['name']) { // Check if image file posted or not
-            $targetDirectory = $config['IMAGE_UPLOAD_PATH'] . '/product_image/'; // Target directory where image will save or store
-            $targetFile = '';
-            $fileType = pathinfo(basename($_FILES['product_image']['name']), PATHINFO_EXTENSION); // File type such as .jpg, .png, .jpeg, .gif
-            if ($fileType != 'jpg' && $fileType != 'png' && $fileType != 'jpeg' && $fileType != 'gif') { // Check file is in mentioned format or not
-                $flag++;
-                $error = 'Sorry, only JPG, JPEG, PNG & GIF files are allowed';
-            } else {
-                if ($_FILES['product_image']['size'] > (1024000)) { // Check file size. File size must be less than 1MB
-                    $flag++;
-                    $error = 'Image size is too large. Must be less than 1MB';
-                } else {
-
-                    $renameFile = "PDI" . date('YmdHis') . '.' . $fileType; // Rename the file name
-                    $targetFile = $targetDirectory . $renameFile; // Target image file
-                    move_uploaded_file($_FILES['product_image']['tmp_name'], $targetFile);
-                    $flag = 0;
-                }
-            }
-        }
-        // Image upload code end
-
-        if ($flag == 0) {
-            $custom_array = '';
-            $custom_array .= 'product_title = "' . $product_title . '"';
-            if ($_FILES["product_image"]["tmp_name"] != '') {
-                $custom_array .= ',product_image = "' . $renameFile . '"';
-            }
-            $custom_array .= ',product_details = "' . $product_details . '"';
-            $custom_array .= ',product_type_id = "' . $product_type_id . '"';
-            $custom_array .= ',product_category_id = "' . $product_category_id . '"';
-            $custom_array .= ',product_status = "' . $product_status . '"';
-            $custom_array .= ',product_updated_by = "' . $product_updated_by . '"';
-
-            $sql = "UPDATE product SET $custom_array WHERE product_id = $product_id";
-            $result = mysqli_query($con, $sql);
-            if ($result) {
-                $success = 'Product information updated successfully';
-                $link = baseUrl() . "admin/view/product/list.php?success=" . base64_encode($success);
-                redirect($link);
-            } else {
-                if (DEBUG) {
-                    $error = 'result query failed for ' . mysqli_error($con);
-                } else {
-                    $error = 'Something went wrong';
-                }
-            }
+    // Image upload code start
+    if ($_FILES['product_image']['name']) { // Check if image file posted or not
+        $targetDirectory = $config['IMAGE_UPLOAD_PATH'] . '/product_image/'; // Target directory where image will save or store
+        $targetFile = '';
+        $fileType = pathinfo(basename($_FILES['product_image']['name']), PATHINFO_EXTENSION); // File type such as .jpg, .png, .jpeg, .gif
+        if ($fileType != 'jpg' && $fileType != 'png' && $fileType != 'jpeg' && $fileType != 'gif') { // Check file is in mentioned format or not
+            $flag++;
+            $error = 'Sorry, only JPG, JPEG, PNG & GIF files are allowed';
         } else {
-            $error = "Something went wrong. Please try again.";
+            if ($_FILES['product_image']['size'] > (1024000)) { // Check file size. File size must be less than 1MB
+                $flag++;
+                $error = 'Image size is too large. Must be less than 1MB';
+            } else {
+
+                $renameFile = "PDI" . date('YmdHis') . '.' . $fileType; // Rename the file name
+                $targetFile = $targetDirectory . $renameFile; // Target image file
+                move_uploaded_file($_FILES['product_image']['tmp_name'], $targetFile);
+                $flag = 0;
+            }
         }
+    }
+    // Image upload code end
+
+    if ($flag == 0) {
+        $custom_array = '';
+        $custom_array .= 'product_title = "' . $product_title . '"';
+        if ($_FILES["product_image"]["tmp_name"] != '') {
+            $custom_array .= ',product_image = "' . $renameFile . '"';
+        }
+        $custom_array .= ',product_details = "' . $product_details . '"';
+        $custom_array .= ',product_type_id = "' . $product_type_id . '"';
+        $custom_array .= ',product_category_id = "' . $product_category_id . '"';
+        $custom_array .= ',product_status = "' . $product_status . '"';
+        $custom_array .= ',product_updated_by = "' . $product_updated_by . '"';
+
+        $sql = "UPDATE product SET $custom_array WHERE product_id = $product_id";
+        $result = mysqli_query($con, $sql);
+        if ($result) {
+            $success = 'Product information updated successfully';
+            $link = baseUrl() . "admin/view/product/list.php?success=" . base64_encode($success);
+            redirect($link);
+        } else {
+            if (DEBUG) {
+                $error = 'result query failed for ' . mysqli_error($con);
+            } else {
+                $error = 'Something went wrong';
+            }
+        }
+    } else {
+        $error = "Something went wrong. Please try again.";
     }
 }
 // getting product data
@@ -281,11 +271,10 @@ if ($resultData) {
                 $("#product_details").kendoEditor({
                     tools: [
                         "bold", "italic", "underline", "strikethrough", "justifyLeft", "justifyCenter", "justifyRight", "justifyFull",
-                        "insertUnorderedList", "insertOrderedList", "indent", "outdent", "createLink", "unlink", "insertImage",
-                        "insertFile", "subscript", "superscript", "createTable", "addRowAbove", "addRowBelow", "addColumnLeft",
-                        "addColumnRight", "deleteRow", "deleteColumn", "viewHtml", "formatting", "cleanFormatting",
-                        "fontName", "fontSize", "foreColor", "backColor"
-                    ]
+            "insertUnorderedList", "insertOrderedList", "indent", "outdent", "createLink", "unlink", "insertImage",
+            "insertFile", "subscript", "superscript", "createTable", "addRowAbove", "addRowBelow", "addColumnLeft",
+                "addColumnRight", "deleteRow", "deleteColumn", "viewHtml", "formatting", "cleanFormatting",
+                        "fontName", "fontSize", "foreColor", "backColor"                     ]
                 });
             });
         </script>
@@ -293,46 +282,30 @@ if ($resultData) {
 
         <script>
             $(document).ready(function () {
-                $("#btnSave").click(function () {
-                    var product_category_id = $("#product_category_id option:selected").val();
-                    var product_title = $("#product_title").val();
+                        $("#btnSave").click(function () {
                     var product_type_id = $("#product_type_id option:selected").val();
-                    var product_status = $("#product_status option:selected").val();                   
+                        var product_status = $("#product_status option:selected").val();
                     var status = 0;
-                    if (product_category_id == '0') {
+
+                        if (product_type_id == '0') {
                         status++;
-                        $("#errorShow").show();
-                        $("#product_category_id").css({
+            $("#errorShow").show();
+                $("#product_type_id").css({
                             "border": "1px solid red"
-                        });
+            });
                     }
-                    if (product_title == '') {
-                        status++;
+                    if (product_status == '0') {                         status++;
                         $("#errorShow").show();
-                        $("#product_title").css({
+                    $("#product_status").css({
                             "border": "1px solid red"
-                        });
-                    }
-                    if (product_type_id == '0') {
-                        status++;
-                        $("#errorShow").show();
-                        $("#product_type_id").css({
-                            "border": "1px solid red"
-                        });
-                    }
-                    if (product_status == '0') {
-                        status++;
-                        $("#errorShow").show();
-                        $("#product_status").css({
-                            "border": "1px solid red"
-                        });
+                    });
                     }
                     if (status == 0) {
                         $("#errorShow").hide();
                         $("#productForm").submit();
-                    }
+                        }
                 });
             });
-        </script>
+                            </script>
     </body>
 </html>

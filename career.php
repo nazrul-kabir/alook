@@ -28,14 +28,11 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">Current Jobs Openings</h2>
+            </div>
             <div class="divide40"></div>
-            <div class="container">                
-                <div class="row">
-                    <div class="center-heading">
-                        <h2>Current Jobs Openings</h2>
-                        <span class="center-line"></span>
-                    </div>               
-                </div>
+            <div class="container">                                
                 <div class="row jobs-row">
                     <div class="col-md-12">
                         <div class="panel-group" id="accordion">

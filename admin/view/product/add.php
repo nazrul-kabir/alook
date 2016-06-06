@@ -38,65 +38,58 @@ if (isset($_POST['product_title'])) {
     $product_type_id = validateInput($product_type_id);
     $product_category_id = validateInput($product_category_id);
 
-    // check product exists
-    $sql_check = "SELECT * FROM product WHERE product_title = '$product_title'";
-    $result_check = mysqli_query($con, $sql_check);
-    $count = mysqli_num_rows($result_check);
-    if ($count > 0) {
-        $error = "Product already exists in record";
-    } else {
-
-        // Image upload code start
-        if ($_FILES['product_image']['name']) { // Check if image file posted or not
-            $targetDirectory = $config['IMAGE_UPLOAD_PATH'] . '/product_image/'; // Target directory where image will save or store
-            $targetFile = '';
-            $fileType = pathinfo(basename($_FILES['product_image']['name']), PATHINFO_EXTENSION); // File type such as .jpg, .png, .jpeg, .gif
-            if ($fileType != 'jpg' && $fileType != 'png' && $fileType != 'jpeg' && $fileType != 'gif') { // Check file is in mentioned format or not
-                $flag++;
-                $error = 'Sorry, only JPG, JPEG, PNG & GIF files are allowed';
-            } else {
-                if ($_FILES['product_image']['size'] > (1024000)) { // Check file size. File size must be less than 1MB
-                    $flag++;
-                    $error = 'Image size is too large. Must be less than 1MB';
-                } else {
-
-                    $renameFile = "PDI" . date('YmdHis') . '.' . $fileType; // Rename the file name
-                    $targetFile = $targetDirectory . $renameFile; // Target image file
-                    move_uploaded_file($_FILES['product_image']['tmp_name'], $targetFile);
-                    $flag = 0;
-                }
-            }
-        }
-        // Image upload code end
 
 
-        if ($flag == 0) {
-            $insert_array = '';
-            $insert_array .= 'product_title = "' . $product_title . '"';
-            $insert_array .= ',product_image = "' . $renameFile . '"';
-            $insert_array .= ',product_details = "' . $product_details . '"';
-            $insert_array .= ',product_type_id = "' . $product_type_id . '"';
-            $insert_array .= ',product_category_id = "' . $product_category_id . '"';
-            $insert_array .= ',product_status = "' . $product_status . '"';
-            $insert_array .= ',product_created_on = "' . $product_created_on . '"';
-            $insert_array .= ',product_created_by = "' . $product_created_by . '"';
-
-            $sql = "INSERT INTO product SET $insert_array";
-            $result = mysqli_query($con, $sql);
-            if ($result) {
-                $success = 'Product information saved successfully';
-                $link = baseUrl() . "admin/view/product/list.php?success=" . base64_encode($success);
-                redirect($link);
-            } else {
-                if (DEBUG) {
-                    $error = 'result query failed for ' . mysqli_error($con);
-                } else {
-                    $error = 'Something went wrong';
-                }
-            }
+    // Image upload code start
+    if ($_FILES['product_image']['name']) { // Check if image file posted or not
+        $targetDirectory = $config['IMAGE_UPLOAD_PATH'] . '/product_image/'; // Target directory where image will save or store
+        $targetFile = '';
+        $fileType = pathinfo(basename($_FILES['product_image']['name']), PATHINFO_EXTENSION); // File type such as .jpg, .png, .jpeg, .gif
+        if ($fileType != 'jpg' && $fileType != 'png' && $fileType != 'jpeg' && $fileType != 'gif') { // Check file is in mentioned format or not
+            $flag++;
+            $error = 'Sorry, only JPG, JPEG, PNG & GIF files are allowed';
         } else {
-            $error = "Something went wrong. Please try again.";
+            if ($_FILES['product_image']['size'] > (1024000)) { // Check file size. File size must be less than 1MB
+                $flag++;
+                $error = 'Image size is too large. Must be less than 1MB';
+            } else {
+
+                $renameFile = "PDI" . date('YmdHis') . '.' . $fileType; // Rename the file name
+                $targetFile = $targetDirectory . $renameFile; // Target image file
+                move_uploaded_file($_FILES['product_image']['tmp_name'], $targetFile);
+                $flag = 0;
+            }
         }
+    }
+    // Image upload code end
+
+
+    if ($flag == 0) {
+        $insert_array = '';
+        $insert_array .= 'product_title = "' . $product_title . '"';
+        $insert_array .= ',product_image = "' . $renameFile . '"';
+        $insert_array .= ',product_details = "' . $product_details . '"';
+        $insert_array .= ',product_type_id = "' . $product_type_id . '"';
+        $insert_array .= ',product_category_id = "' . $product_category_id . '"';
+        $insert_array .= ',product_status = "' . $product_status . '"';
+        $insert_array .= ',product_created_on = "' . $product_created_on . '"';
+        $insert_array .= ',product_created_by = "' . $product_created_by . '"';
+
+        $sql = "INSERT INTO product SET $insert_array";
+        $result = mysqli_query($con, $sql);
+        if ($result) {
+            $success = 'Product information saved successfully';
+            $link = baseUrl() . "admin/view/product/list.php?success=" . base64_encode($success);
+            redirect($link);
+        } else {
+            if (DEBUG) {
+                $error = 'result query failed for ' . mysqli_error($con);
+            } else {
+                $error = 'Something went wrong';
+            }
+        }
+    } else {
+        $error = "Something went wrong. Please try again.";
     }
 }
 ?>
@@ -149,7 +142,7 @@ if (isset($_POST['product_title'])) {
                                                 <form method="POST" id="productForm" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" enctype="multipart/form-data">
                                                     <div class="modal-body">
                                                         <div class="form-group">
-                                                            <label for="product_category_id">Product Category &nbsp;&nbsp;<span style="color:red;">*</span></label>
+                                                            <label for="product_category_id">Product Category (No Need to add category for Domestic & Local)</label>
                                                             <select id="product_category_id" name="product_category_id" class="form-control">
                                                                 <option value="0">Select Product Category</option>
                                                                 <?php if (count($arrayProductCategory) > 0): ?>
@@ -260,27 +253,11 @@ if (isset($_POST['product_title'])) {
             $(document).ready(function () {
                 $("#btnSave").click(function () {
 
-                    var product_category_id = $("#product_category_id option:selected").val();
-                    var product_title = $("#product_title").val();
                     var product_image = $('input[type="file"]').val();
                     var product_type_id = $("#product_type_id option:selected").val();
                     var product_status = $("#product_status option:selected").val();
                     var status = 0;
 
-                    if (product_category_id == '0') {
-                        status++;
-                        $("#errorShow").show();
-                        $("#product_category_id").css({
-                            "border": "1px solid red"
-                        });
-                    }
-                    if (product_title == '') {
-                        status++;
-                        $("#errorShow").show();
-                        $("#product_title").css({
-                            "border": "1px solid red"
-                        });
-                    }
                     if (product_image == '') {
                         status++;
                         $("#errorShow").show();

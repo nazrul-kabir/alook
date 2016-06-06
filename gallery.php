@@ -7,7 +7,7 @@ include './config/config.php';
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Alook Refrigeration CO. Ltd | Director's Review</title>
+        <title>Alook Refrigeration CO. Ltd | Gallery</title>
         <?php include './header_script.php'; ?>
         <style>
             p{
@@ -33,14 +33,13 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
+            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">GALLERY</h2>
+            </div>
             <div class="container">
                 <div class="divide20"></div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="center-heading">
-                            <h2>GALLERY</h2>
-                            <span class="center-line"></span>
-                        </div>
                         <div class="col-md-3">
                             <div class="item-img-wrap ">
                                 <img src="upload/product_image/PDI20160511100159.jpg" class="img-responsive" alt="workimg">
