@@ -84,8 +84,8 @@
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" style="color: white;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;PRODUCTS <i class="fa fa-angle-down"></i>&nbsp;&nbsp;</a>
                         <ul class="dropdown-menu multi-level" role="menu">
 
-                            <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=1">DOMESTIC</a></li>
-                            <li><a tabindex="-1" href="<?php echo baseUrl(); ?>industrial_products.php">INDUSTRIAL</a></li>
+                            <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=1">DOMESTIC PRODUCTS</a></li>
+                            <li><a tabindex="-1" href="<?php echo baseUrl(); ?>industrial_products.php">INDUSTRIAL PRODUCTS</a></li>
                             <li><a tabindex="-1" href="<?php echo baseUrl(); ?>products.php?id=3">LOCAL PRODUCTS</a></li>
                         </ul>
 

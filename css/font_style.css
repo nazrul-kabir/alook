@@ -1,4 +1,17 @@
 @font-face {
+    font-family: 'Montserrat-UltraLight';
+    src: url('../montserrat/Montserrat-UltraLight.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-UltraLight';
+    src: url('../montserrat/Montserrat-UltraLight.otf');
+    src: url('../montserrat/Montserrat-UltraLight.otf?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Montserrat-Regular';
     src: url('../montserrat/Montserrat-Regular.otf') format('truetype');
     font-weight: normal;

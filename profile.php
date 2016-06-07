@@ -65,15 +65,15 @@ include './config/config.php';
                     
                     <div class="col-md-6">
                         <ul class="list-unstyled highlight-list">
-                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Supplying, Installing, Commissioning state-of-the art Heating,Ventilating, Air-conditioning & Refrigerating Equipment</li>
-                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Importing HVAC equipment</li>
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: Montserrat-UltraLight"><i class="fa fa-check"></i> Supplying, Installing, Commissioning state-of-the art Heating,Ventilating, Air-conditioning & Refrigerating Equipment</li>
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: Montserrat-UltraLight"><i class="fa fa-check"></i> Importing HVAC equipment</li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="list-unstyled highlight-list">
-                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Manufacturing water heaters & accessories</li>
-                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Uninterrupted after-sales-service and maintenance to the clients</li>
-                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: 'Montserrat',sans-serif"><i class="fa fa-check"></i> Continuous contribution to business development of the country</li>
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: Montserrat-UltraLight"><i class="fa fa-check"></i> Manufacturing water heaters & accessories</li>
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: Montserrat-UltraLight"><i class="fa fa-check"></i> Uninterrupted after-sales-service and maintenance to the clients</li>
+                            <li style="line-height: 25px;font-size: 14px;font-weight: 400;font-family: Montserrat-UltraLight"><i class="fa fa-check"></i> Continuous contribution to business development of the country</li>
                         </ul>
                     </div>
                 </div>
