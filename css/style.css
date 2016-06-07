@@ -7,6 +7,7 @@ body {
     font-size: 15px;
     line-height: 24px;
     background-color: #fff;
+    letter-spacing: -0.2px;
     font-family: Montserrat-UltraLight;
 }
 *,
@@ -1103,6 +1104,7 @@ TOP BARS
     color: #443D3D;
     font-size: 14px;
     font-family: Montserrat-UltraLight;
+    letter-spacing: -0.2px;
 }
 
 .contact p {
