@@ -34,13 +34,13 @@ include './config/config.php';
                 </div>
             </div>
             <div class="container">
-                <div class="divide20"></div>
+                <div class="divide40"></div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="center-heading">
+<!--                        <div class="center-heading">
                             <h2>PRODUCT DETAILS </h2>
                             <span class="center-line"></span>
-                        </div>
+                        </div>-->
                         <div class="col-md-4">
                             <img src="upload/product_1.jpg"class="img-responsive" alt="workimg">
                         </div>

@@ -2,19 +2,19 @@
     <div class="container">               
         <div class="row">
             <div class="col-md-3 margin20 facts-in">
-                <h3><i class="fa fa-image" style="color: whitesmoke;"></i><span class="counter">39</span></h3>
+                <h3><i class="fa fa-image" style="color: whitesmoke;"></i><span class="counter">390</span></h3>
                 <h4>Projects Completed</h4>
             </div><!--facts in-->
             <div class="col-md-3 margin20 facts-in">
-                <h3><i class="fa fa-users" style="color: whitesmoke;"></i><span class="counter">200</span>+</h3>
+                <h3><i class="fa fa-users" style="color: whitesmoke;"></i><span class="counter">1200</span>+</h3>
                 <h4>Happy Customers</h4>
             </div><!--facts in-->
             <div class="col-md-3 margin20 facts-in">
-                <h3><i class="fa fa-clock-o" style="color: whitesmoke;"></i><span class="counter">30</span>+</h3>
+                <h3><i class="fa fa-clock-o" style="color: whitesmoke;"></i><span class="counter">44</span>+</h3>
                 <h4>Years Of Experience </h4>
             </div><!--facts in-->
             <div class="col-md-3 margin20 facts-in">
-                <h3><i class="fa fa-coffee" style="color: whitesmoke;"></i><span class="counter">2500</span></h3>
+                <h3><i class="fa fa-coffee" style="color: whitesmoke;"></i><span class="counter">01</span>M+</h3>
                 <h4>Cups of tea</h4>
             </div><!--facts in-->
         </div>

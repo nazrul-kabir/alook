@@ -33,11 +33,11 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+<!--            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">MESSAGE FROM MD</h2>
-            </div>
+            </div>-->
             <div class="container">
-                <div class="divide20"></div>
+                <div class="divide40"></div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-md-12">                            

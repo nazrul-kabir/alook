@@ -31,13 +31,12 @@ if ($resultProduct) {
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h4>PRODUCTS</h4>
+                            <h4>Heating Terminal Products</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
                             <ol class="breadcrumb">
                                 <li><a href="index.php">HOME</a></li>
                                 <li>PRODUCTS</li>
-                                <li></li>
                             </ol>
                         </div>
                     </div>
@@ -47,10 +46,10 @@ if ($resultProduct) {
                 <div class="divide20"></div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="center-heading">
+<!--                        <div class="center-heading">
                             <h2>Heating Terminal Products</h2>
                             <span class="center-line"></span>
-                        </div>                        
+                        </div>                        -->
                         <?php if (count($arrayProduct) > 0): ?>
                             <?php foreach ($arrayProduct AS $product): ?>
                                 <div class="col-md-3 productDiv">

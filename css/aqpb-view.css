@@ -526,7 +526,7 @@ height: auto;
     background-color: #A4AEB9;
 }
 .aq-template-wrapper .mtspn6 {    width: 48.5%;}
-h4.met_title_stack {    color: #FFFFFF;    font-size: 24px;    margin: 0;    line-height: 27px;}
+h4.met_title_stack {    color: #FFFFFF;    font-size: 24px;    margin: 0;    line-height: 27px;    padding-left: 20px;}
 .viewi{
 display:none;
 }

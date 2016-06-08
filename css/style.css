@@ -1263,7 +1263,7 @@ TOP BARS
 
 .latest-f-news li a {
     display: block;
-    padding: 4px 0;
+    padding: 3px 0;
     color: #443D3D;
     font-size: 14px;
     font-family: Montserrat-UltraLight;
@@ -2479,7 +2479,7 @@ ul.post-desc li + li {
 
 /**blog inner pages**/
 .blog-post {
-    border-bottom: 1px dashed #e5e5e5;
+    /*border-bottom: 1px dashed #e5e5e5;*/
     padding-bottom: 30px;
     margin-bottom: 60px;
 }

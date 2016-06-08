@@ -62,12 +62,9 @@ if (isset($_POST['contact_name'])) {
                 </div>
             </div>
             <div class="container">
-                <div class="divide80"></div>
+                <div class="divide40"></div>
                 <div class="row">
-                    <div class="col-md-12 ">
-                        <div class="row">                           
-
-                        </div>
+                    <div class="col-md-12 ">                        
                         <div class="row margin40">
                             <div class="col-md-4 margin30" >
                                 <div class="contact-option-circle" style="background-color: #367DAB;">

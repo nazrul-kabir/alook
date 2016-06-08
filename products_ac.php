@@ -3,7 +3,7 @@ include './config/config.php';
 $arrayProduct = array();
 $sqlProduct = "SELECT product.*,product_type.* FROM product "
         . "LEFT JOIN product_type ON product.product_type_id = product_type.product_type_id "
-        . "WHERE product_status = 'Active' AND product_category_id = '2' ORDER BY product_created_on DESC";
+        . "WHERE product_status = 'Active' AND product.product_type_id !='3' AND product_category_id = '1' ORDER BY product_created_on DESC";
 $resultProduct = mysqli_query($con, $sqlProduct);
 if ($resultProduct) {
     while ($objProduct = mysqli_fetch_object($resultProduct)) {
@@ -31,7 +31,7 @@ if ($resultProduct) {
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h4>INDUSTRIAL PRODUCTS</h4>
+                            <h4>Water Cooled Chiller</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
                             <ol class="breadcrumb">
@@ -43,14 +43,13 @@ if ($resultProduct) {
                 </div>
             </div>
             <div class="container" style="min-height: 400px;">
-                <div class="divide20"></div>
+                <div class="divide40"></div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="center-heading">
-                            <h2>Air Cooled Chiller</h2>
+<!--                        <div class="center-heading">
+                            <h2>Water Cooled Chiller</h2>
                             <span class="center-line"></span>
-                        </div>
-                        
+                        </div>-->
                         <?php if (count($arrayProduct) > 0): ?>
                             <?php foreach ($arrayProduct AS $product): ?>
                                 <div class="col-md-3 productDiv">

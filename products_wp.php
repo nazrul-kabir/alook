@@ -31,7 +31,7 @@ if ($resultProduct) {
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h4>PRODUCTS</h4>
+                            <h4>Water Cooled Packaged Units</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
                             <ol class="breadcrumb">
@@ -44,14 +44,13 @@ if ($resultProduct) {
                 </div>
             </div>
             <div class="container" style="min-height: 400px;">
-                <div class="divide20"></div>
+                <div class="divide40"></div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="center-heading">
-                            <h2>Water Cooled Packaged Units</h2>
+<!--                        <div class="center-heading">
+                            <h2></h2>
                             <span class="center-line"></span>
-                        </div>
-                        
+                        </div>-->                       
                         <?php if (count($arrayProduct) > 0): ?>
                             <?php foreach ($arrayProduct AS $product): ?>
                                 <div class="col-md-3 productDiv">

@@ -31,9 +31,7 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                     top: -9999px;
                     left: -9999px;
                 }
-
                 #no-more-tables tr { border: 1px solid #333; }
-
                 #no-more-tables td { 
                     border: none;
                     border-bottom: 1px solid #333; 
@@ -42,7 +40,6 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                     white-space: normal;
                     text-align:left;
                 }
-
                 #no-more-tables td:before { 
                     position: absolute;
                     top: 6px;
@@ -77,11 +74,11 @@ while ($objEquipment = mysqli_fetch_object($resultEquipment)) {
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+<!--            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">EQUIPMENT LIST</h2>
-            </div>
+            </div>-->
             <div class="container">
-                <div class="divide20"></div>
+                <div class="divide40"></div>
                 <div class="row">
                     <div class="col-md-12">
                         

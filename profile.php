@@ -32,7 +32,7 @@ include './config/config.php';
                 <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ALOOK'S PROFILE</h2>
             </div>-->
             <div class="container" style="padding-left: 10px;padding-right: 10px;">
-                <div class="divide20"></div>
+                <div class="divide40"></div>
                 <div class="row">
                     <div class="col-md-12 wow animated fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="col-md-6">

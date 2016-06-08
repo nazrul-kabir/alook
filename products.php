@@ -64,7 +64,7 @@ if ($id > 0 && $id != '') {
 
                     <?php if (count($arrayProduct) > 0): ?>
                         <?php foreach ($arrayProduct AS $product): ?>
-                            <div class="col-md-12" style="border: 1px solid #10218B;box-shadow: 0 2px 4px 0 rgb(41, 39, 39), 0 3px 1px 0 #C9C7C7;">
+                            <div class="col-md-12" style="box-shadow: 0 1px 3px 0 rgb(236, 236, 236), 0 3px 1px 0 #C9C7C7;">
                                 <div class="col-md-3 productDiv" style="">
                                     <div class="item-img-wrap" style="margin-top: 10px;background-color: #F1F0F0;">
                                         <img src="<?php echo baseUrl(); ?>upload/product_image/<?php echo $product->product_image; ?>"class="img-responsive" alt="<?php echo $product->product_title; ?>">
