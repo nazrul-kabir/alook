@@ -113,7 +113,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 24px;
@@ -535,7 +535,7 @@ pre:after, pre:before {
 
 .navbar-default .navbar-nav > li > a {
     color: #687074;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -644,7 +644,7 @@ TOP BARS
 
 .top-bar-socials {
     line-height: 18px;
-    padding-top: 5px;
+    padding: 5px;
 }
 .top-bar-socials:after {
     display: table;
@@ -652,7 +652,7 @@ TOP BARS
     content: "";
 }
 .top-bar-socials a {
-    margin: 0px 3px;
+    margin: 0px 14px;
 }
 
 .top-dark-right {
