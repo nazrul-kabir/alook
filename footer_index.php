@@ -14,14 +14,39 @@
             <div class="col-md-3">
                 <div class="footer-col" style="background-color: #367DAB;height:279px;  padding: 10px;">
                     <h3 style="color:white;text-align: center;letter-spacing: 2px;">Contact</h3>
-                    <ul class="list-unstyled contact" style="color:white;">
-                        <li><p style="color: white;"><strong><i class="fa fa-map-marker"></i> Address&nbsp;:</strong>Alook Tower (3rd Floor), &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                47/1 Shahid Tajuddin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahmed Sarani, 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mohakhali, Dhaka-1212</p></li> 
-                        <li><p style="color: white;"><strong><i class="fa fa-envelope"></i> Email&nbsp;&nbsp;&nbsp;:</strong><a href="#" style="color: whitesmoke">alookref@gmail.com</a></p></li>
-                        <li><p style="color: white;"><strong><i class="fa fa-phone"></i> Phone&nbsp;&nbsp;:</strong>(+8802) 98307602</p></li>
-                        <li><p style="color: white;"><strong><i class="fa fa-print"></i> Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong>(+8802) 9830750</p></li>
-                    </ul>
+                    <div class="col-md-4" style="padding-left: 0px;padding-right: 0px;">
+                        <p style="color:white;"><i class="fa fa-map-marker"></i> Address &nbsp;:</p>
+                    </div>
+                    <div class="col-md-8" style="padding-left: 0px;padding-right: 0px;">
+                        <p style="color:white;">Alook Tower (3rd Floor), 47/1 Shahid  Tajuddin Ahmed Sarani, Mohakhali,Dhaka-1212</p>
+                    </div>
+                    <div class="col-md-4" style="padding-left: 0px;padding-right: 0px;margin-top: -20px;">
+                        <p style="color:white;"><i class="fa fa-envelope"></i> Email &nbsp;&nbsp;&nbsp;:</p>
+                    </div>
+                    <div class="col-md-8" style="padding-left: 0px;padding-right: 0px;margin-top: -20px;">
+                        <p style="color:white;">alookref@gmail.com</p>
+                    </div>
+                    <div class="col-md-4" style="padding-left: 0px;padding-right: 0px;margin-top: -10px;">
+                        <p style="color:white;"><i class="fa fa-phone"></i> Phone &nbsp;&nbsp;:</p>
+                    </div>
+                    <div class="col-md-8" style="padding-left: 0px;padding-right: 0px;margin-top: -10px;">
+                        <p style="color:white;">(+8802) 98307602</p>
+                    </div>
+                    <div class="col-md-4" style="padding-left: 0px;padding-right: 0px;margin-top: -10px;">
+                         <p style="color:white;"><i class="fa fa-print"></i> Fax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+                    </div>
+                    <div class="col-md-8" style="padding-left: 0px;padding-right: 0px;margin-top: -10px;">
+                        <p style="color:white;">(+8802) 9830750</p>
+                    </div>
+                    
+                    <!--                    <ul class="list-unstyled contact" style="color:white;">
+                                            <li><p style="color: white;"><strong><i class="fa fa-map-marker"></i> Address&nbsp;:</strong>Alook Tower (3rd Floor), &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    47/1 Shahid Tajuddin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahmed Sarani, 
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mohakhali, Dhaka-1212</p></li> 
+                                            <li><p style="color: white;"><strong><i class="fa fa-envelope"></i> Email&nbsp;&nbsp;&nbsp;:</strong><a href="#" style="color: whitesmoke">alookref@gmail.com</a></p></li>
+                                            <li><p style="color: white;"><strong><i class="fa fa-phone"></i> Phone&nbsp;&nbsp;:</strong>(+8802) 98307602</p></li>
+                                            <li><p style="color: white;"><strong><i class="fa fa-print"></i> Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong>(+8802) 9830750</p></li>
+                                        </ul>-->
                 </div>                        
             </div>
             <div class="col-md-3">
