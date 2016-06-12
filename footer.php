@@ -15,7 +15,9 @@
                 <div class="footer-col" style="background-color: #367DAB;height:265px;  padding: 10px;">
                     <h3 style="color:white;text-align: center;letter-spacing: 2px;">Contact</h3>
                     <ul class="list-unstyled contact" style="color:white;">
-                        <li><p style="color: white;"><strong><i class="fa fa-map-marker"></i> Address&nbsp;:</strong>Alook Tower (3rd Floor), 47/1 Shahid Tajuddin Ahmed Sarani, Mohakhali, Dhaka-1212</p></li> 
+                        <li><p style="color: white;"><strong><i class="fa fa-map-marker"></i> Address&nbsp;:</strong>Alook Tower (3rd Floor), 47/1 Shahid 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tajuddin Ahmed Sarani, Mohakhali,
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dhaka-1212</p></li> 
                         <li><p style="color: white;"><strong><i class="fa fa-envelope"></i> Email&nbsp;&nbsp;&nbsp;:</strong><a href="#" style="color: whitesmoke">alookref@gmail.com</a></p></li>
                         <li><p style="color: white;"><strong><i class="fa fa-phone"></i> Phone&nbsp;&nbsp;:</strong>(+8802) 98307602</p></li>
                         <li><p style="color: white;"><strong><i class="fa fa-print"></i> Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong>(+8802) 9830750</p></li>

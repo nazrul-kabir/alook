@@ -1,4 +1,4 @@
-<?php 
+<?php
 include './config/config.php';
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ include './config/config.php';
     </head>
     <body id="boxed">
         <div class="boxed-wrapper">
-             <?php include basePath('header.php'); ?> 
+            <?php include basePath('header.php'); ?> 
             <div class="breadcrumb-wrap">
                 <div class="container">
                     <div class="row">
@@ -28,22 +28,29 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
-<!--            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ORGANOGRAM</h2>
-            </div>-->
+            <!--            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                            <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">ORGANOGRAM</h2>
+                        </div>-->
             <div class="container">
                 <div class="divide20"></div>
                 <div class="row">
                     <div class="col-md-12">                        
-                        <div>
-                            <img src="<?php echo baseUrl(); ?>upload/Untitled-2.jpg" class="img-responsive" alt="ALOOK Organogram" style="padding: 50px;">
-                            <div class="item-img-overlay">
-                                <span></span>
-                            </div>
-                        </div>                                        
+                        <div class="col-md-2 hidden-xs hidden-sm">
+                        </div>
+                        <div class="col-md-8">
+                            <div>
+                                <img src="<?php echo baseUrl(); ?>upload/Untitled-2.jpg" class="img-responsive" alt="ALOOK Organogram">
+                                <div class="item-img-overlay">
+                                    <span></span>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-md-2 hidden-xs hidden-sm">
+                        </div>
+
                     </div>                   
                 </div>               
-           </div>                     
+            </div>                     
             <?php include basePath('footer.php'); ?>
         </div>
         <?php include basePath('footer_script.php'); ?>

@@ -4,8 +4,8 @@
             <a href="index.php"><img src="upload/ALOOK_FULL_LOGO.png" alt="ALOOK REFRIJEGERATION COMPANY LIMITED" style="width: 100%;"></a>
         </div>
         <div class="col-md-4 hidden-sm hidden-xs"></div>
-        <div class="col-md-4 hidden-sm hidden-xs" style="width: 31%; padding: 5px;">
-            <img src="upload/DUNHAM_FULL.png" alt="DUNHAM-BUSH" style="width: 100%;margin-left: 113px;">
+        <div class="col-md-4 hidden-sm hidden-xs" style="width: 31%; padding: 5px;margin-top: 4px">
+            <img src="upload/DUNHAM_FULL.png" alt="DUNHAM-BUSH LIMITED" style="width: 100%;margin-left: 67px;">
         </div>
     </div>
 </div>

@@ -56,12 +56,12 @@ if ($id > 0 && $id != '') {
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;"><?php echo $product_type_name; ?></h2>
-            </div>                        
+            <!--            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                            <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;"><?php echo $product_type_name; ?></h2>
+                        </div>                        -->
             <div class="container" style="min-height: 400px;">
+                <div class="divide30"></div>
                 <div class="row" style="margin-left: 15px;margin-right: 15px;">
-
                     <?php if (count($arrayProduct) > 0): ?>
                         <?php foreach ($arrayProduct AS $product): ?>
                             <div class="col-md-12" style="box-shadow: 0 1px 3px 0 rgb(236, 236, 236), 0 3px 1px 0 #C9C7C7;">
@@ -83,13 +83,10 @@ if ($id > 0 && $id != '') {
                     <?php else: ?>
                         <h3 style="text-align: center;">No products found in record</h3>
                     <?php endif; ?>     
-
                 </div>
             </div>
-
             <?php include basePath('footer.php'); ?>
         </div>       
-
         <?php include basePath('footer_script.php'); ?>
         <script>
             $(document).ready(function () {

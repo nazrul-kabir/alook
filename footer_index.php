@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3" style="">
-                <div class="footer-col" style="background-color: #367DAB;height:265px;  padding: 10px;">
+                <div class="footer-col" style="background-color: #367DAB;height:279px;  padding: 10px;">
                     <h3 style="text-align: center;letter-spacing: 2px;color:white;">About Alook</h3>
                     <p style="text-align: justify; color:white;">
                         We feel blessed that Alook Refrigeration Company Limited has been continuing
@@ -12,10 +12,12 @@
                 </div>                        
             </div><!--footer col-->
             <div class="col-md-3">
-                <div class="footer-col" style="background-color: #367DAB;height:265px;  padding: 10px;">
+                <div class="footer-col" style="background-color: #367DAB;height:279px;  padding: 10px;">
                     <h3 style="color:white;text-align: center;letter-spacing: 2px;">Contact</h3>
                     <ul class="list-unstyled contact" style="color:white;">
-                        <li><p style="color: white;"><strong><i class="fa fa-map-marker"></i> Address&nbsp;:</strong>Alook Tower (3rd Floor), 47/1 Shahid Tajuddin Ahmed Sarani, Mohakhali, Dhaka-1212</p></li> 
+                        <li><p style="color: white;"><strong><i class="fa fa-map-marker"></i> Address&nbsp;:</strong>Alook Tower (3rd Floor), &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                47/1 Shahid Tajuddin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahmed Sarani, 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mohakhali, Dhaka-1212</p></li> 
                         <li><p style="color: white;"><strong><i class="fa fa-envelope"></i> Email&nbsp;&nbsp;&nbsp;:</strong><a href="#" style="color: whitesmoke">alookref@gmail.com</a></p></li>
                         <li><p style="color: white;"><strong><i class="fa fa-phone"></i> Phone&nbsp;&nbsp;:</strong>(+8802) 98307602</p></li>
                         <li><p style="color: white;"><strong><i class="fa fa-print"></i> Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong>(+8802) 9830750</p></li>
@@ -23,7 +25,7 @@
                 </div>                        
             </div>
             <div class="col-md-3">
-                <div class="footer-col" style="background-color: #367DAB;height:265px; padding: 10px;">
+                <div class="footer-col" style="background-color: #367DAB;height:279px; padding: 10px;">
                     <h3 style="color:white;text-align: center;letter-spacing: 2px;">Quick Links</h3> 
                     <ul class="latest-f-news" style="color: white;">
                         <li ><a href="javascript:void(0);" style="color: white;"> Products</a></li>
@@ -36,7 +38,7 @@
                 </div>                        
             </div>
             <div class="col-md-3">
-                <div class="footer-col" style="background-color: #367DAB;height:265px;  padding: 10px;">
+                <div class="footer-col" style="background-color: #367DAB;height:279px;  padding: 10px;">
                     <h3 style="color:white;text-align: center;letter-spacing: 2px;">Newsletter</h3>
                     <p style="color: white;">
                         Subscribe To Get Our Update

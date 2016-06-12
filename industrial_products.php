@@ -29,7 +29,7 @@ include './config/config.php';
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 hidden-xs ">
-                            <h4>INDUSTRIAL PRODUCTS</h4>
+                            <h4>DB INDUSTRIAL PRODUCTS</h4>
                         </div>
                         <div class="col-sm-6 hidden-xs text-right">
                             <ol class="breadcrumb">
@@ -40,9 +40,9 @@ include './config/config.php';
                     </div>
                 </div>
             </div>
-<!--            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
-                <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">INDUSTRIAL PRODUCTS</h2>
-            </div>-->
+            <!--            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                            <h2 style="text-align: center;color: white;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;font-size: 25px;border: 1px solid #367DAB; background-color: #367DAB;">INDUSTRIAL PRODUCTS</h2>
+                        </div>-->
             <div class="container">
                 <div class="divide40"></div>
                 <div class="row">
@@ -61,7 +61,7 @@ include './config/config.php';
                                         <article class="met_color2 met_bgcolor5" style="background-color: #A4AEB9; padding-top: 3%;padding-left: 2%">
                                             <div>
                                                 <h4 class="met_title_stack" style="">Water Cooled </h4>							
-                                                <h4 class="met_title_stack met_bold_one">Chillers</h4>							
+                                                <h4 class="met_title_stack met_bold_one">Chillers</h4>	<br>						
                                                 <div>
                                                     <ul style="color: white">
                                                         <li>WCS Series</li>
